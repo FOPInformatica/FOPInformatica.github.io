@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: FOPI
+description: Federación Olímpica Peruana de Informática
+github:
+  is_project_page: false
