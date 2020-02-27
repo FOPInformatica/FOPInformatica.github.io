@@ -5,8 +5,10 @@ La Federación Olímpica Peruana de Informática (FOPI) invita a participar en e
 
 Ver convocatoria oficial [aquí](archivos/convocatoria-2020.pdf).
 
-Inscripciones [aquí](https://forms.gle/Fb zCp8bnEZRhKeC46)
- <span style="color:red">hasta el 21 de Abril del 2020.</span>
+Inscripciones: próximamente.
+
+<!--Inscripciones [aquí](https://forms.gle/Fb zCp8bnEZRhKeC46)
+ <span style="color:red">hasta el 21 de Abril del 2020.</span>-->
 
 Dudas informales pueden ser resueltas en nuestra [página de Facebook](https://www.facebook.com/InformaticaPe/).
 
