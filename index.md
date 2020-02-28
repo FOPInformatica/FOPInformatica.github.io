@@ -1,13 +1,13 @@
 ## Competencia Peruana de Informática Online (CPIO-2020)
 
 La Federación Olímpica Peruana de Informática (FOPI) invita a participar en el CPIO-2020, el cual será realizado el día
-<span style="color:red">Sábado 25 de Abril del 2020.</span>
+<span style="color:red">Sábado 25 de Abril del 2020 a las 14h.</span>
 
 Ver convocatoria oficial [aquí](archivos/convocatoria-2020.pdf).
 
-Inscripciones: próximamente.
+<!--Inscripciones: próximamente.-->
 
-<!--Inscripciones [aquí](https://forms.gle/Fb zCp8bnEZRhKeC46)
+Inscripciones [aquí](https://forms.gle/Ro5ELGqBPAzWS1sD6)
  <span style="color:red">hasta el 21 de Abril del 2020.</span>-->
 
 Dudas informales pueden ser resueltas en nuestra [página de Facebook](https://www.facebook.com/InformaticaPe/).
