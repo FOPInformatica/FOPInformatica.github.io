@@ -8,7 +8,7 @@ Ver convocatoria oficial [aquí](archivos/convocatoria-2020.pdf).
 <!--Inscripciones: próximamente.-->
 
 Inscripciones [aquí](https://forms.gle/Ro5ELGqBPAzWS1sD6)
- <span style="color:red">hasta el 21 de Abril del 2020.</span>-->
+ <span style="color:red">hasta el 21 de Abril del 2020.</span>
 
 Dudas informales pueden ser resueltas en nuestra [página de Facebook](https://www.facebook.com/InformaticaPe/).
 
