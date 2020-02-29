@@ -1,3 +1,7 @@
+---
+title: OPI
+---
+
 ## Competencia Peruana de Informática Online (CPIO-2020)
 
 La Federación Olímpica Peruana de Informática (FOPI) invita a participar en el CPIO-2020, el cual será realizado el día
@@ -26,10 +30,4 @@ El CIIC-2020 será realizado de manera simultánea por todos los países
 el día <span style="color:red">30 de Mayo del 2020.</span>
 Los estudiantes peruanos seleccionados podrán rendir el examen
 en cualquiera de las dos sedes de Lima y Arequipa.
-
-&nbsp;&nbsp;&nbsp;
-<div style="text-align: right">
-&copy; Federación Olímpica Peruana de Informática (FOPI)
-</div>
-
 
