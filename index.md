@@ -1,6 +1,7 @@
 ---
 title: Competencia Peruana de Informática Online
 description: La CPIO es una competencia que a nivel nacional que convoca a estudiantes pre-universitarios con habilidades de solución de problemas. Los estudiantes hacen uso de la lógica, su ingenio y habilidades de programación para resolver los desafíos presentados.
+subtitle: Por el talento peruano;
 ---
 
 # Competencia Peruana de Informática Online (CPIO-2020)

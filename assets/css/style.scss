@@ -6,7 +6,30 @@
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, red);
+  background-image: url('../img/photo.jpg'), linear-gradient(120deg, #155799, red);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10em 0 10em 0;
+}
+
+.project-name {
+  margin: 1em 0 1em 0;
+}
+
+.project-tagline {
+  font-family: "Robobo Mono", Courier, monospace;
+  font-size: 1.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+	letter-spacing: 0.15em;
+  animation: 
+    typing 4s steps(40, end);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
 p {
