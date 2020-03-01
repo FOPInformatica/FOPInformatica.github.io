@@ -2,6 +2,27 @@
 ---
 @import 'jekyll-theme-cayman';
 
-.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, red); }
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, red);
+}
 
-p { text-align: justify; }
+p {
+  text-align: justify;
+}
+
+span.em {
+  color: #9c2440;
+}
+
+#logo {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  background-image: url('../img/opi-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: center;
+}
