@@ -8,7 +8,9 @@
   background-color: #159957;
   background-image: url('../img/photo.jpg'), linear-gradient(120deg, #155799, red);
   background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 10em 0 10em 0;
 }
 
@@ -16,20 +18,31 @@
   margin: 1em 0 1em 0;
 }
 
-.project-tagline {
+.typewriter {
+  display: inline-block;
+}
+
+.typewriter h2 {
+  border-right: .15em solid white;
   font-family: "Robobo Mono", Courier, monospace;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.1em;
   animation: 
-    typing 4s steps(40, end);
+    typing 3s steps(23, end),
+    blink-caret .75s step-end infinite;
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
 }
 
 p {
