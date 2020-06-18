@@ -9,10 +9,10 @@ subtitle: Por el talento peruano;
 ## Convocatoria
 
 La Federación Olímpica Peruana de Informática (FOPI) invita a participar en la CPIO-2020 a realizarse el
-<span class="em">Sábado 25 de Abril del 2020 a las 14h.</span>
+<span class="em">Domingo 12 de Julio del 2020 a las 14h.</span>
 
 - [Convocatoria y reglamento oficial](archivos/convocatoria-2020/cpio-2020.pdf).
-- [Inscripciones](https://forms.gle/Ro5ELGqBPAzWS1sD6) hasta el <span class="em">21 de Abril del 2020</span>.
+- [Inscripciones](https://forms.gle/Ro5ELGqBPAzWS1sD6) hasta el <span class="em">8 de Julio del 2020</span>.
 - [Página en Facebook](https://www.facebook.com/InformaticaPe/) para dudas informales.
 
 ## Sobre CPIO
@@ -26,7 +26,5 @@ Los 10 mejores estudiantes peruanos serán seleccionados
 para participar en el Concurso Iberoamericano de Informática y Computación (CIIC), el cual es un concurso internacional con participantes
 de distintos países de iberoamérica.
 El CIIC-2020 será realizado de manera simultánea por todos los países
-el día <span class="em">30 de Mayo del 2020.</span>
-Los estudiantes peruanos seleccionados podrán rendir el examen
-en cualquiera de las dos sedes de Lima y Arequipa.
+el día <span class="em">1ero de Agosto del 2020.</span>
 
