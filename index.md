@@ -12,7 +12,7 @@ La Federación Olímpica Peruana de Informática (FOPI) invita a participar en l
 <span class="em">Domingo 12 de Julio del 2020 a las 14h.</span>
 
 - [Convocatoria y reglamento oficial](archivos/convocatoria-2020/cpio-2020.pdf).
-- [Inscripciones](https://forms.gle/Ro5ELGqBPAzWS1sD6) hasta el <span class="em">8 de Julio del 2020</span>.
+- ~Inscripciones hasta el <span class="em">8 de Julio del 2020</span>.~
 - [Página en Facebook](https://www.facebook.com/InformaticaPe/) para dudas informales.
 
 ## Sobre CPIO
