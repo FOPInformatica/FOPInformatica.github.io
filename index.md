@@ -26,5 +26,5 @@ Los 10 mejores estudiantes peruanos serán seleccionados
 para participar en el Concurso Iberoamericano de Informática y Computación (CIIC), el cual es un concurso internacional con participantes
 de distintos países de iberoamérica.
 El CIIC-2020 será realizado de manera simultánea por todos los países
-el día <span class="em">1ero de Agosto del 2020.</span>
+el día <span class="em">5 de Setiembre del 2020.</span>
 
