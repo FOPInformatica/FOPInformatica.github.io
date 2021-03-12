@@ -4,6 +4,8 @@ description: La CPIO es una competencia que a nivel nacional que convoca a estud
 subtitle: Por el talento peruano;
 ---
 
+# Competencia Peruana de Informática Online (CPIO-2021)
+
 # Competencia Peruana de Informática Online (CPIO-2020)
 
 ## Convocatoria
