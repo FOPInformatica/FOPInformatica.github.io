@@ -10,7 +10,7 @@ La Federación Olímpica Peruana de Informática (FOPI) invita a participar en l
 <span class="em">Domingo 2 de Mayo del 2021 a las 14h.</span>
 
 - [Convocatoria y reglamento oficial](archivos/convocatoria-2021/cpio-2021.pdf).
-- ~Inscripciones hasta el <span class="em">23 de Abril del 2020</span>.~
+- [Inscripciones](https://forms.gle/bweDqcKJhDLnCEf18) hasta el <span class="em">23 de Abril del 2020</span>.~
 - [Página en Facebook](https://www.facebook.com/InformaticaPe/) para dudas informales.
 
 ## Sobre CPIO
