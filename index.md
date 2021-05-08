@@ -9,9 +9,9 @@ subtitle: Por el talento peruano;
 La Federación Olímpica Peruana de Informática (FOPI) invita a participar en la CPIO-2020 a realizarse el
 <span class="em">Domingo 2 de Mayo del 2021 a las 14h.</span>
 
-- [Convocatoria y reglamento oficial](archivos/convocatoria-2021/cpio-2021.pdf).
-- [Inscripciones](https://forms.gle/bweDqcKJhDLnCEf18) hasta el <span class="em">23 de Abril del 2021</span>.
-- [Página en Facebook](https://www.facebook.com/InformaticaPe/) para dudas informales.
+- [Convocatoria y reglamento oficial](archivos/convocatoria-2021/cpio-2021.pdf)
+- [Resultados oficiales](https://www.facebook.com/InformaticaPe/posts/1374727299549885)
+- [Réplica de concurso para práctica](https://omegaup.com/arena/CPIO-replica/)
 
 ## Sobre CPIO
 
@@ -34,9 +34,7 @@ el día <span class="em">22 de Mayo del 2021.</span>
 La Federación Olímpica Peruana de Informática (FOPI) invita a participar en la CPIO-2020 a realizarse el
 <span class="em">Domingo 12 de Julio del 2020 a las 14h.</span>
 
-- [Convocatoria y reglamento oficial](archivos/convocatoria-2020/cpio-2020.pdf).
-- ~Inscripciones hasta el <span class="em">8 de Julio del 2020</span>.~
-- [Página en Facebook](https://www.facebook.com/InformaticaPe/) para dudas informales.
+- [Convocatoria y reglamento oficial](archivos/convocatoria-2020/cpio-2020.pdf)
 - [Resultados oficiales](https://www.facebook.com/InformaticaPe/posts/1158035667885717)
 - [Réplica de concurso para práctica](https://omegaup.com/arena/replica-cpio-2020/)
 
