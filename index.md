@@ -10,7 +10,7 @@ La Olimpiada Peruana de Informática (OPI) es una competencia que a nivel nacion
 
 ## Convocatoria
 
-**¡Prontamente!**
+- Olimpiada Peruana de Informática 2022 ([OPI-2022](actual/opi2022))
 
 ## Eventos pasados
 
