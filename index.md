@@ -1,5 +1,5 @@
 ---
-title: Convocatoria a la Olimpiada Peruana de Informática (OPI 2022)
+title: Olimpiada Peruana de Informática
 description: La OPI es una competencia que a nivel nacional que convoca a estudiantes de secundaria con habilidades de solución de problemas. Los estudiantes hacen uso de la lógica, su ingenio y habilidades de programación para resolver los desafíos presentados.
 subtitle: Por el talento peruano;
 ---
@@ -8,7 +8,7 @@ subtitle: Por el talento peruano;
 
 La Olimpiada Peruana de Informática (OPI) es una competencia que a nivel nacional que convoca a estudiantes de secundaria con habilidades de solución de problemas. Los estudiantes hacen uso de la lógica, su ingenio y habilidades de programación para resolver los desafíos presentados.
 
-## Convocatoria
+## Convocatoria a la Olimpiada Peruana de Informática (OPI 2022)
 
 
 - La fecha de FASE 1 será el día **13 de Noviembre de 2021 a las 14h**. 
