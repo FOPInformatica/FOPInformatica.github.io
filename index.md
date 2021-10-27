@@ -13,7 +13,7 @@ La Olimpiada Peruana de Informática (OPI) es una competencia que a nivel nacion
 
 - La fecha de FASE 1 será el día **13 de Noviembre de 2021 a las 14h**. 
 
-- Inscripciones  **hasta el 31 de Octubre de 2021**: [en el siguiente formulario](https://docs.google.com/forms/d/1LO5qQp9yVQhuYdonJAPSYfzWFTb0M-hOcp4JEVOjj-M/edit)
+- Inscripciones  **hasta el 5 de Noviembre de 2021**: [en el siguiente formulario](https://docs.google.com/forms/d/1LO5qQp9yVQhuYdonJAPSYfzWFTb0M-hOcp4JEVOjj-M/edit)
 
 - Mira el reglamento completo en el siguiente enlace: ([OPI-2022](actual/opi2022))
 
