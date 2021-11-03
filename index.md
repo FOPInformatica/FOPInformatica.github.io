@@ -22,6 +22,10 @@ La Olimpiada Peruana de Informática (OPI) es una competencia que a nivel nacion
 - Competencia Peruana de Informática Online 2021 ([CPIO-2021](pasado/cpio2021))
 - Competencia Peruana de Informática Online 2020 ([CPIO-2020](pasado/cpio2020))
 
+## Material de Autoentrenamiento
+
+Puedes revisar material para prepararte en el siguiente enlace: [Material de Autoentrenamiento](auto-entrenamiento)
+
 ## ¿Qué es la Olimpiada Internacional de Informática (IOI)?
 
 ![Logo IOI](assets/img/ioi-logo.png)
