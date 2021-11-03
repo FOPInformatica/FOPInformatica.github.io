@@ -10,8 +10,6 @@ Los interesados a participar en los procesos de selección de la Federación Ol�
 
 **Nota:** Considere el [Sílabo de la IOI](https://people.ksp.sk/~misof/ioi-syllabus/) como principales temas a evaluar.
 
-*Los materiales de referencia a continuación tendrán especificado el idioma si este no está en inglés*
-
 ## Guías de aprendizaje
 
 - [Curso de OmegaUp - Introducción a C++ (Español)](https://omegaup.com/course/introduccion_a_cpp/)
