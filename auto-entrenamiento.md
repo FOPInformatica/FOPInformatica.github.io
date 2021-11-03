@@ -1,6 +1,6 @@
 ---
-title: Competencia Peruana de Informática Online
-description: La CPIO es una competencia que a nivel nacional que convoca a estudiantes pre-universitarios con habilidades de solución de problemas. Los estudiantes hacen uso de la lógica, su ingenio y habilidades de programación para resolver los desafíos presentados.
+title: Material de Auto Entrenamiento
+description: Material que se puede usar para aprender los conceptos necesarios para resolver problemas de competencias de programación (la mayoría de referencias son en inglés, pero hay algunas en español)
 subtitle: Por el talento peruano;
 ---
 
@@ -12,9 +12,27 @@ Los interesados a participar en los procesos de selección de la Federación Ol�
 
 *Los materiales de referencia a continuación tendrán especificado el idioma si este no está en inglés*
 
+## Guías de aprendizaje
+
+- [Curso de OmegaUp - Introducción a C++ (Español)](https://omegaup.com/course/introduccion_a_cpp/)
+
+- [Curso de OmegaUp - Introducción a la Olimpiada Peruana de Informática Parte 1 (Español)](https://omegaup.com/course/intro-opi-p1/)
+
+- [Guía para la Olimpiada Estadounidense de Computación](https://usaco.guide/dashboard/)
+
 ## Teoría
 
 ### Libros principales
+
+Separamos los libros en tres grupos principales:
+
+ 1. Algoritmos: Libros que enseñan conceptos de algoritmos y sus aplicaciones.
+
+ 2. Conceptos: Libros que enseñan conceptos que son prerrequisitos para poder entender con mayor facilidad los algoritmos.
+
+ 3. Resolución de problemas: Libros que ayudan a mejorar la habilidad de resolución de problemas al estudiante.
+
+#### Algoritmos
 
 - Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to algorithms. MIT press.
 
@@ -22,23 +40,33 @@ Los interesados a participar en los procesos de selección de la Federación Ol�
 
 - Skiena, S. S. (2020). The algorithm design manual. Springer International Publishing.
 
-- Graham, R. L., Knuth, D. E., Patashnik, O., & Liu, S. (1989). Concrete mathematics: a foundation for computer science. Computers in Physics, 3(5), 106-107.
-
-- Polya, G. (2004). How to solve it: A new aspect of mathematical method (Vol. 85). Princeton university press.
-
-- Tao, T. (2006). Solving mathematical problems: A personal perspective. Oxford University Press on Demand.
+- Jungnickel, D., & Jungnickel, D. (2005). Graphs, networks and algorithms. Berlin: Springer.
 
 - Sedgewick, R., & Wayne, K. (2011). Algorithms (4th edn).
 
 - Van Kreveld, M., Schwarzkopf, O., de Berg, M., & Overmars, M. (2000). Computational geometry algorithms and applications. Springer.
 
-### Libros ligeros
+- Cormen, T. H. (2013). Algorithms unlocked. Mit Press.
 
-- Halim, S., Halim, F., Skiena, S. S., & Revilla, M. A. (2013). Competitive programming 3. Lulu Independent Publish. (Ya disponible la 4ta edición)
+- Halim, S., Halim, F., Skiena, S. S., & Revilla, M. A. (2013). Competitive programming 3. Lulu Independent Publish. (Ya disponible la 4ta edición. Tiene traducción al español)
 
 - Laaksonen, A. (2017). Competitive Programmer’s Handbook. Preprint.
 
-- Diks, K., Idziaszek, T., Łącki, J., Radoszewski, J., & Hallas, R. G. (Eds.). (2012). Looking for a Challenge?: The Ultimate Problem Set from the University of Warsaw Programming Competitions. Faculty of Mathematics, Informatics and Mechanics University of Warsaw.
+- Diks, K., Idziaszek, T., Łącki, J., Radoszewski, J., & Hallas, R. G. (Eds.). (2012). Looking for a Challenge?: The Ultimate Problem Set from the University of Warsaw Programming Competitions. Faculty of Mathematics, Informatics and Mechanics University of Warsaw. (Este libro es más una selección de problemas de alto nivel que un libro de algoritmos en sí).
+
+#### Conceptos
+
+- Graham, R. L., Knuth, D. E., Patashnik, O., & Liu, S. (1989). Concrete mathematics: a foundation for computer science. Computers in Physics, 3(5), 106-107.
+
+- Bollobás, B. (2012). Graph theory: an introductory course (Vol. 63). Springer Science & Business Media.
+
+- Ne, J. (2009). Invitation to discrete mathematics. Oxford University Press.
+
+#### Resolución de problemas
+
+- Polya, G. (2004). How to solve it: A new aspect of mathematical method (Vol. 85). Princeton university press.
+
+- Tao, T. (2006). Solving mathematical problems: A personal perspective. Oxford University Press on Demand.
 
 ### Páginas web
 
@@ -68,21 +96,17 @@ Los interesados a participar en los procesos de selección de la Federación Ol�
 
 - [ProgVar.Fun](https://progvar.fun/)
 
-- [Competitive programming ladders](https://competitive.herokuapp.com/accounts/login/)
+- [Competitive programming ladders](https://codeforces.com/blog/entry/81912)
 
 - [Codedrills Recommender](https://recommender.codedrills.io/)
-
-## Guías de aprendizaje
-
-- [Cursos de OmegaUp (Español)](https://omegaup.com/course/)
-
-- [Guía para la Olimpiada Estadounidense de Computación](https://usaco.guide/dashboard/)
 
 ## Páginas para competir y practicar
 
 - [Codeforces](https://codeforces.com/)
 
 - [AtCoder](https://atcoder.jp/)
+
+- [OmegaUp (Español)](https://omegaup.com/)
 
 - [TopCoder](https://arena.topcoder.com/index.html#/u/dashboard)
 
@@ -100,8 +124,6 @@ Los interesados a participar en los procesos de selección de la Federación Ol�
 
 - [HackerRank](https://www.hackerrank.com/)
 
-- [OmegaUp](https://omegaup.com/)
-
 - [Sphere Online Judge](https://www.spoj.com/)
 
 - [Virtual Judge](https://vjudge.net/)
@@ -110,6 +132,7 @@ Los interesados a participar en los procesos de selección de la Federación Ol�
 
 - [Kattis Problem Archive](https://open.kattis.com/)
 
+- [Matcomgrader](https://matcomgrader.com/)
 
 ## Calendario de Competencias
 
