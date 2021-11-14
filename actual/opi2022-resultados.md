@@ -13,6 +13,8 @@ subtitle: Por el talento peruano;
 Los siguientes resultados son prelimininares.
 ```
 
+Los siguientes competidores clasifican a la fase 2.
+
 <table>
   <tr>
    <td>
