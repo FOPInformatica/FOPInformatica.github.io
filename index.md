@@ -15,6 +15,7 @@ La Olimpiada Peruana de Informática (OPI) es una competencia que a nivel nacion
 - Inscripciones finalizadas.
 - Mira el reglamento completo en el siguiente enlace: ([OPI-2022](actual/opi2022))
 - [Resultados](actual/opi2022-resultados)
+- [Solucionario](https://github.com/FOPInformatica/soluciones/blob/master/OPI/2022/Fase%201/Tutorial/Solucionario%20OPI%202022%20Fase%201.pdf) y [códigos](https://github.com/FOPInformatica/soluciones/tree/master/OPI/2022/Fase%201/C%C3%B3digos).
 
 ## Eventos pasados
 
