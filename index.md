@@ -8,14 +8,15 @@ subtitle: Por el talento peruano;
 
 La Olimpiada Peruana de Informática (OPI) es una competencia que a nivel nacional que convoca a estudiantes de secundaria con habilidades de solución de problemas. Los estudiantes hacen uso de la lógica, su ingenio y habilidades de programación para resolver los desafíos presentados.
 
-## Convocatoria a la Olimpiada Peruana de Informática (OPI 2022)
+## Olimpiada Peruana de Informática (OPI 2022)
 
 
-- La fecha de FASE 1 será el día **13 de Noviembre de 2021 a las 14h**.
-- Inscripciones finalizadas.
+- La FASE 1 fue el día **13 de Noviembre de 2021 a las 14h**.
+- La FASE 2 fue el día **13 de Febrero de 2022 a las 14h**.
 - Mira el reglamento completo en el siguiente enlace: ([OPI-2022](actual/opi2022))
 - [Resultados](actual/opi2022-resultados)
-- [Solucionario](https://github.com/FOPInformatica/soluciones/blob/master/OPI/2022/Fase%201/Tutorial/Solucionario%20OPI%202022%20Fase%201.pdf) y [códigos](https://github.com/FOPInformatica/soluciones/tree/master/OPI/2022/Fase%201/C%C3%B3digos).
+- [Solucionario Fase 1](https://github.com/FOPInformatica/soluciones/blob/master/OPI/2022/Fase%201/Tutorial/Solucionario%20OPI%202022%20Fase%201.pdf) y [códigos](https://github.com/FOPInformatica/soluciones/tree/master/OPI/2022/Fase%201/C%C3%B3digos).
+- [Solucionario Fase 2](https://github.com/FOPInformatica/soluciones/blob/master/OPI/2022/Fase%202/Tutorial/Solucionario%20OPI%202022%20Fase%202.pdf) y [códigos](https://github.com/FOPInformatica/soluciones/tree/master/OPI/2022/Fase%202/C%C3%B3digos).
 
 ## Eventos pasados
 

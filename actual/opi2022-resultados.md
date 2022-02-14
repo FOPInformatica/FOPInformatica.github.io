@@ -8,12 +8,7 @@ subtitle: Por el talento peruano;
 
 ## Fase 1
 
-**Nota**
-```
-Los siguientes resultados son prelimininares.
-```
-
-Los siguientes competidores clasifican a la fase 2.
+Los siguientes competidores clasificaron a la fase 2.
 
 |    | Participante                                             | A       | B       | C       | D       | E      | F       | Total  |
 | -- | -------------------------------------------------------- | ------- | ------- | ------- | ------- | ------ | ------- | ------ |
@@ -52,3 +47,22 @@ Los siguientes competidores clasifican a la fase 2.
 | 33 | ashfiorelpalacios06 (Ashley Fiorella Palacios Huamán)    | +100.00 | 0.00    | +100.00 | \-      | \-     | \-      | 200.00 |
 | 34 | Adriel3509Y (Christopher Adriel Chávez Carmen)           | +100.00 | 0.00    | +100.00 | \-      | \-     | \-      | 200.00 |
 
+
+## Fase 2
+
+Los siguientes primeros competidores clasifican a la CIIC 2022.
+
+|    | Participante                                             | A       | B       | C       | D       | Total  |
+| -- | -------------------------------------------------------- | ------- | ------- | ------- | ------- | ------ |
+| 1  | NekoRolly (Rolly Mamani Cutipa)                          | +100.00 | +10.00  | +100.00 | +100.00 | 310.00 |
+| 2  | angelo\_torres (Angelo Torres)                           | +100.00 | +10.00  | +40.00  | +100.00 | 250.00 |
+| 3  | pyedb48 (Angie Alcántara Castillo)                       | +100.00 | \-      | +40.00  | +40.00  | 180.00 |
+| 4  | cue (Bryan Andres Mauricio Molicka)                      | +100.00 | \-      | +20.00  | +0.00   | 120.00 |
+| 4  | myh2910 (Yohan Min)                                      | +100.00 | \-      | +20.00  | \-      | 120.00 |
+| 4  | YesPy (Angelo D'steffano Farfán Oré)                     | +100.00 | \-      | +20.00  | +0.00   | 120.00 |
+| 7  | paolo_mamani (paolo mamani)                              | +45.00  | \-      | +20.00  | +8.00   | 73.00  |
+| 8  | alejandro_pineda (Alejandro Pineda)                      | +45.00  | \-      | +5.00   | +8.00   | 58.00  |
+| 9  | jhojhan (jhojhan vilcanqui Apaza)                        | +45.00  | \-      | +2.00   | \-      | 47.00  |
+| 10 | lsalvador.ht (Luis Salvador Heysen Taborda)              | +10.00  | \-      | +20.00  | +8.00   | 38.00  |
+
+El ranking completo se encuentra [aquí](https://omegaup.com/arena/OPI-2022-2/#ranking).
