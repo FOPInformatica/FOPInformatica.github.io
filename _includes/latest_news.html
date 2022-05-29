@@ -1,0 +1,27 @@
+<div class="latest-news">
+    <div class="latest-news-header">
+        <div class="latest-news-title">
+            Últimas Noticias
+        </div>
+        <div class="latest-news-all-link">
+            <a href="/blog/">
+                Ver todo
+            </a>
+        </div>
+    </div>
+    <div class="latest-news-list">
+        {%- for post in site.posts limit:include.limit -%}
+            <div class="latest-news-item">
+                {%- include post-header.html post=post -%}
+                <h3>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+                <div class="post-excerpt">
+                    {{ post.excerpt | truncate: 130 }}
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+</div>

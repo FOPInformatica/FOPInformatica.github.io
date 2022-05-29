@@ -1,0 +1,67 @@
+.page-with-full-title {
+  padding: 0;
+}
+
+.full-title {
+  height: 250px;
+  width: 100%;
+  background-color: $secondary-2;
+  font-size: 48px;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    border-radius: 15px;
+  }
+
+  .post-meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 20px;
+
+    svg {
+      height: 24px;
+      margin-right: 15px;
+    }
+
+    > div {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.blog-page {
+  .post-excerpt {
+    margin-bottom: 15px;
+  }
+
+  .post-list {
+    display: flex;
+    flex-direction: column;
+
+    .post-list-item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 40px;
+
+      .blog-post-more {
+        align-self: start;
+      }
+    }
+  }
+}
+
+.post-list {
+  margin-bottom: 100px;
+}

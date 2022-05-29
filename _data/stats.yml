@@ -1,0 +1,9 @@
+- name: Eventos Organizados
+  id: events
+  number: 5
+- name: Colegios Involucrados
+  id: schools
+  number: 20
+- name: Estudiantes/Participantes
+  id: students
+  number: 500+

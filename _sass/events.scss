@@ -1,0 +1,166 @@
+.event-page {
+  padding: 0;
+}
+
+.event-hero {
+  background-color: $secondary-4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+
+  .event-hero-info {
+    padding: 100px;
+    font-size: 48px;
+  }
+
+  .event-hero-image {
+    width: 500px;
+  }
+}
+
+.event-description {
+  margin: 120px 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.event-sponsors {
+  background-color: $secondary-1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: $secondary-4;
+
+  .sponsor-level {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}
+
+.sponsor-level-title {
+  border-top: 1px solid #636363;
+  border-bottom: 1px solid #636363;
+  margin-bottom: 30px;
+}
+
+.sponsor-item {
+  margin: 15px 0;
+}
+
+.sponsor-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .sponsor-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .sponsor-item-description {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+}
+
+.sponsor-visionaries {
+  .sponsor-level-title {
+    font-size: 36px;
+  }
+  .sponsor-item {
+    width: 350px;
+    font-size: 20px;
+  }
+
+  .sponsor-item-logo {
+    width: 280px;
+  }
+}
+
+.sponsor-maintainers {
+  .sponsor-level-title {
+    font-size: 31px;
+  }
+  .sponsor-item {
+    width: 230px;
+    font-size: 18px;
+  }
+
+  .sponsor-item-logo {
+    width: 200px;
+  }
+}
+
+.sponsor-contributors {
+  .sponsor-level-title {
+    font-size: 26px;
+  }
+  .sponsor-item {
+    width: 170px;
+    font-size: 16px;
+  }
+
+  .sponsor-item-logo {
+    width: 150px;
+  }
+}
+
+.sponsor-supporters {
+  .sponsor-level-title {
+    font-size: 24px;
+  }
+  .sponsor-item {
+    width: 140px;
+    font-size: 14px;
+  }
+
+  .sponsor-item-logo {
+    width: 120px;
+  }
+}
+
+.sponsor-friends {
+  .sponsor-level-title {
+    font-size: 22px;
+  }
+  .sponsor-item {
+    width: 115px;
+    font-size: 13px;
+  }
+
+  .sponsor-item-logo {
+    width: 100px;
+  }
+}
+
+// IOI 2022
+
+.event-countdown {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  font-size: 48px;
+  font-weight: 700;
+  > * {
+    padding-right: 15px;
+  }
+
+  .countdown-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .countdown-subtext {
+    font-size: 24px;
+  }
+}

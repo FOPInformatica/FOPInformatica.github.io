@@ -1,0 +1,16 @@
+<div class="partners">
+    <div class="partners-logo">
+    {%- for partner in site.data.partners -%}
+        <div class="partner-item">
+          <a href="{{ partner.link }}">
+            {% include {{ partner.logo | append: '.svg.html' }} %}
+          </a>
+        </div>
+      {%- endfor -%}
+    </div>
+    <div>
+        <a class="btn" href="mailto:{{ site.email }}?subject=Quiero ayudar a la FOPI!">
+            Ser partner
+        </a>
+    </div>
+</div>

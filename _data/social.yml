@@ -1,0 +1,9 @@
+- name: Facebook
+  link: https://www.facebook.com/InformaticaPe
+  icon: fa-facebook
+- name: Linkedin
+  link: https://www.linkedin.com/company/fed-olimpica-peruana-informatica/
+  icon: fa-linkedin
+- name: Github
+  link: https://github.com/fopInformatica
+  icon: fa-github

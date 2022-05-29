@@ -1,0 +1,40 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+      - testing
+
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Set-up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "2.5.1"
+        bundler-cache: true
+    - name: Build Site
+      run: bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+    - name: Deploy to Testing bucket
+      if: ${{ steps.extract_branch.outputs.branch == "testing" }}
+      run: aws s3 sync ./_site/ s3://testing.fopi.org.pe --delete
+    - name: Deploy to Production bucket
+      if: ${{ steps.extract_branch.outputs.branch == "master" }}
+      run: aws s3 sync ./_site/ s3://fopi.org.pe --delete
