@@ -1,0 +1,46 @@
+.site-header {
+  background-color: $primary-1;
+  color: white;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  a {
+    color: white;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  .header-logo {
+    flex: 0 0 100px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    svg {
+      width: 60px;
+    }
+  }
+
+  .header-pages-links {
+    flex: 1 1 auto;
+    display: flex;
+
+    .header-page-item {
+      padding: 5px;
+    }
+  }
+
+  .header-contact {
+    flex: 0 0 200px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

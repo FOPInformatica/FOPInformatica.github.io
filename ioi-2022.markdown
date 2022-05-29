@@ -1,0 +1,128 @@
+---
+layout: event
+hero_image: /assets/images/ioi-2022.svg
+hero_link: https://ioi2022.id/
+permalink: /ioi-2022
+event_date: "Aug 7, 2022 00:00:00"
+sponsor_levels:
+- name: Visionarios
+  id: visionaries
+  sponsors:
+  - logo: /assets/images/bitmaker.svg
+    description: Something weird adhsadhs dsahdshdasdsadhsa
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another description
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another description
+    link: https://bitmaker.la
+
+- name: Mantenedores
+  id: maintainers
+  sponsors:
+  - logo: /assets/images/bitmaker.svg
+    description: Something weird
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another description
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+
+- name: Contribuidores
+  id: contributors
+  sponsors:
+  - logo: /assets/images/bitmaker.svg
+    description: Something weird
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another description
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+
+- name: Hinchas
+  id: supporters
+  sponsors:
+  - logo: /assets/images/bitmaker.svg
+    description: Something weird
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another description
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+
+- name: Amigos
+  id: friends
+  sponsors:
+  - logo: /assets/images/bitmaker.svg
+    description: Something weird
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another description
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+  - logo: /assets/images/bitmaker.svg
+    description: another one
+    link: https://bitmaker.la
+
+event_info: |
+    <div>IOI 2022 - Indonesia</div>
+    <div>International Olympiad in Informatics</div>
+    <div class="event-countdown">
+        <div class="countdown-item">
+            <span id="countdown-days" class="countdown-number"></span>
+            <span class="countdown-subtext">Días</span>
+        </div>
+        <span>:</span>
+        <div class="countdown-item">
+            <span id="countdown-hours" class="countdown-number"></span>
+            <span class="countdown-subtext">Horas</span>
+        </div>
+        <span>:</span>
+        <div class="countdown-item">
+            <span id="countdown-minutes" class="countdown-number"></span>
+            <span class="countdown-subtext">Minutos</span>
+        </div>
+        <span>:</span>
+        <div class="countdown-item">
+            <span id="countdown-seconds" class="countdown-number"></span>
+            <span class="countdown-subtext">Segundos</span>
+        </div>
+    </div>
+---
+Finalmente el Perú es parte de la Olimpiada Internacional en Informática 2022!!!

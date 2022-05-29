@@ -1,0 +1,30 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+<div class="about-page">
+    <div class="about-description">
+        Somos un grupo de nerds
+    </div>
+    <div class="about-members-list">
+        {%- for member in site.data.members -%}
+            <div class="about-member">
+                <div class="about-member-picture">
+                    <img src="{{ member.picture }}" alt="{{ member.name }}"/>
+                </div>
+                <div class="about-member-description">
+                    <div class="about-member-name">
+                        {{ member.name }}
+                    </div>
+                    <div class="about-member-title">
+                        {{ member.title }}
+                    </div>
+                    <div class="about-member-text">
+                        {{ member.description }}
+                    </div>
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+</div>

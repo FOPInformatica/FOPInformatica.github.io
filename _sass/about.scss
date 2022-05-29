@@ -1,0 +1,61 @@
+.about-page {
+  .about-description {
+    font-size: 35px;
+    margin: 50px 0;
+    text-align: center;
+  }
+
+  .about-members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.about-member {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 80px;
+
+  @media (max-width: 991.98px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .about-member-picture {
+    padding: 0 40px;
+
+    @media (max-width: 991.98px) {
+      padding: 0;
+    }
+
+    img {
+      width: 340px;
+      min-width: 300px;
+    }
+  }
+}
+
+.about-member-description {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+
+  @media (max-width: 991.98px) {
+    align-items: center;
+  }
+
+  .about-member-name {
+    color: $primary-2;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .about-member-title {
+    color: $secondary-4;
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
