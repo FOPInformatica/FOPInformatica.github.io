@@ -33,8 +33,8 @@ jobs:
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       id: extract_branch
     - name: Deploy to Testing bucket
-      if: ${{ steps.extract_branch.outputs.branch == "testing" }}
+      if: ${{ steps.extract_branch.outputs.branch == 'testing' }}
       run: aws s3 sync ./_site/ s3://testing.fopi.org.pe --delete
     - name: Deploy to Production bucket
-      if: ${{ steps.extract_branch.outputs.branch == "master" }}
+      if: ${{ steps.extract_branch.outputs.branch == 'master' }}
       run: aws s3 sync ./_site/ s3://fopi.org.pe --delete
