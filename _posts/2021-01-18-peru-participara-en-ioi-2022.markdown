@@ -2,7 +2,7 @@
 layout: post
 title: "El Perú participará por primera vez de la Olimpiada Internacional de Informática en el 2022"
 date: 2021-11-18 00:00:00 -0500
-categories: blog
+categories: historia
 author: Aldo Culquicondor
 image: /assets/images/marcaperu.png
 is_post: true
