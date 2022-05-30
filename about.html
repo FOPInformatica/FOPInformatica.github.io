@@ -5,7 +5,13 @@ permalink: /about
 ---
 <div class="about-page">
     <div class="about-description">
-        Somos un grupo de nerds
+        Solo necesitas querer apoyar para poder ser parte de nosotros. Únete a nuestro
+        slack y presentate para poder contactarnos
+        <div class="about-slack-link">
+            <a class="btn" href="https://join.slack.com/t/federacion-opi/shared_invite/zt-19thx57zp-jrIMCwUHBfLeY1zlR6xu~g">
+                <span>Únete a  <img src="https://a.slack-edge.com/4f28/img/slack_logo.svg" alt="slack" /> </span>
+            </a>
+        </div>
     </div>
     <div class="about-members-list">
         {%- for member in site.data.members -%}
@@ -19,6 +25,13 @@ permalink: /about
                     </div>
                     <div class="about-member-title">
                         {{ member.title }}
+                    </div>
+                    <div class="about-member-social">
+                        {%- for social_item in member.social -%}
+                            <a href="{{ social_item.link }}">
+                                <i class="fa fa-{{ social_item.name }} fa-2x"></i>
+                            </a>
+                        {%- endfor -%}
                     </div>
                     <div class="about-member-text">
                         {{ member.description }}

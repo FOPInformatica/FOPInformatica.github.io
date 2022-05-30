@@ -8,6 +8,11 @@
   position: relative;
   background-color: $secondary-5;
 
+  @media (max-width: 767.98px) {
+    width: 99%;
+    margin: 0;
+  }
+
   span.progress-bar-completed {
     height: 100%;
     display: block;
