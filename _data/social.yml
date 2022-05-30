@@ -7,3 +7,6 @@
 - name: Github
   link: https://github.com/fopInformatica
   icon: fa-github
+- name: Youtube
+  link: https://www.youtube.com/channel/UC5fcUtSe8oPyN7sNRvLI4ow
+  icon: fa-youtube
