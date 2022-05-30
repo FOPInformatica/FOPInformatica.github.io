@@ -13,7 +13,7 @@
             {% assign need_percentage = site.data.collect.ioi2022.need | times: 100 | divided_by: site.data.collect.ioi2022.goal %}
             {%- include utils/progressbar.html completed=current_percentage color="#0056AC" marker=need_percentage -%}
             <div>
-                <span class="amount">{{ current_percentage }}%</span> de <span class="amount">{{ site.data.collect.ioi2022.goal }}</span>
+                <span class="amount">{{ current_percentage }}%</span> de <span class="amount">${{ site.data.collect.ioi2022.goal }}</span>
             </div>
         </div>
         <div class="promo-btn">
