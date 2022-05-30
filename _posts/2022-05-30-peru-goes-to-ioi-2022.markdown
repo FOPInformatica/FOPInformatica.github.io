@@ -18,7 +18,7 @@ bank_link_text: |
     <span class="blogpost-ioi2022"><img src="/assets/images/interbank.svg" /></span>
 
 ---
-[El día ha llegado!!](/ioi-2022), lo hicimos y finalmente el Perú participará del mundial
+[El día ha llegado!!](/ioi-2022) lo hicimos y finalmente el Perú participará del mundial
 de programación a nivel Escolar!!
 
 El [IOI por fin será presencial](https://ioi2022.id/) y como FOPI estamos muy entusiasmados
