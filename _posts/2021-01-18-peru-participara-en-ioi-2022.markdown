@@ -2,12 +2,11 @@
 layout: post
 title: "El Perú participará por primera vez de la Olimpiada Internacional de Informática en el 2022"
 date: 2021-11-18 00:00:00 -0500
-categories: histori
+categories: blog
 author: Aldo Culquicondor
 image: /assets/images/marcaperu.png
 is_post: true
 avatar: /assets/images/aldoculquicondor.jpeg
-author_name: Aldo Culquicondor
 author_company: Google
 ---
 El año 2022, el Perú participará por primera vez en la [Olimpiada Internacional de Informática](https://ioinformatics.org/) (IOI, por sus siglas en inglés). Este certamen, dirigido a estudiantes pre-universitarios, se realiza cada año desde 1989 y, al 2021, tiene 89 países participando, incluyendo muchos países de nuestra región. Esta es una oportunidad única para nuestros estudiantes peruanos para desarrollar y mostrar su talento para la resolución de problemas y la programación. En mérito a este gran hito, quiero hacer un recuento de la historia de la **Federación Olímpica Peruana de Informática (FOPI)**, nuestra institución.

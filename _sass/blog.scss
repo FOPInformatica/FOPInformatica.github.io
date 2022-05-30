@@ -3,8 +3,7 @@
 }
 
 .full-title {
-  height: 250px;
-  width: 100%;
+  min-height: 250px;
   background-color: $secondary-2;
   font-size: 48px;
   color: white;
@@ -13,6 +12,11 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 150px;
+  padding: 0 160px;
+
+  @media (max-width: 991.98px) {
+    padding: 0;
+  }
 }
 
 .post-header {
@@ -21,6 +25,7 @@
 
   img {
     border-radius: 15px;
+    max-height: 500px;
   }
 
   .post-meta {
@@ -64,4 +69,20 @@
 
 .post-list {
   margin-bottom: 100px;
+}
+
+article.post {
+  margin: 0 50px;
+
+  @media (max-width: 991.98px) {
+    margin: 0;
+  }
+}
+
+.blogpost-ioi2022 {
+  border: 1px solid transparent;
+
+  img {
+    max-width: 150px;
+  }
 }
