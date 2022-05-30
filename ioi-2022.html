@@ -149,13 +149,21 @@ event_info: |
         Finalmente el Perú es parte de la <a href="/assets/documents/ioi2022-invitation.pdf" target="_blank">Olimpiada Internacional en Informática 2022</a>!!!
     </p>
     <div class="ioi2022-contact">
-        Contáctanos para auspiciar este evento
-      <a class="social" href="https://wa.me/{{ site.phone }}?text=Quiero Apoyar al Perú para la IOI2022">
-        <i class="fa fa-2x fa-whatsapp"></i>
-      </a>
-      <a class="social" href="mailto:{{ site.email }}">
-        <i class="fa fa-2x fa-envelope"></i>
-      </a>
+        <div class="ioi2022-collect">
+            Puedes apoyar directamente:
+            <a href="https://www.paypal.com/pools/c/8Kf1hMqVN5">
+                <i class="fa fa-2x fa-paypal"></i>
+            </a>
+        </div>
+        O puedes contactarnos para más información:
+        <div class="ioi2022-contact-info">
+          <a class="social" href="https://wa.me/{{ site.phone }}?text=Quiero Apoyar al Perú para la IOI2022">
+            <i class="fa fa-2x fa-whatsapp"></i>
+          </a>
+          <a class="social" href="mailto:{{ site.email }}">
+            <i class="fa fa-2x fa-envelope"></i>
+          </a>
+        </div>
     </div>
     <div class="collect-explanation">
         {%- include utils/modal.html link_text=page.modal_link_text content=page.modal_content identifier="ioi2022" -%}
