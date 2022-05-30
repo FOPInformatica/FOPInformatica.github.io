@@ -74,4 +74,10 @@
     flex-direction: row;
     gap: 10px;
   }
+
+  .about-member-text {
+    @media (max-width: 991.98px) {
+      text-align: center;
+    }
+  }
 }
