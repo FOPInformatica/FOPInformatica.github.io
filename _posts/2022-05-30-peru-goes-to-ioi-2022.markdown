@@ -4,7 +4,7 @@ title: "IOI-2022: La invitación es oficial, y necesitamos ayuda!"
 date: 2022-05-30 00:00:00 -0500
 categories: historia
 author: Raul Gallegos
-image: /assets/images/ioi-2022.svg
+image: /assets/images/ioi-2022.png
 is_post: true
 avatar: /assets/images/raulgallegos.jpeg
 author_company: bitmaker.la
