@@ -1,0 +1,66 @@
+.promo-ioi2022 {
+  background: linear-gradient(0deg, rgba(206, 227, 252, 0.5), rgba(206, 227, 252, 0.5)), url('/assets/images/indonesia.jpeg');
+  background-size: 100% auto;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 991.98px) {
+    background-size: auto 100%;
+  }
+}
+
+.promo-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 30px;
+  color: $secondary-3;
+  padding: 0 160px;
+  margin: 40px 0;
+
+  @media (max-width: 991.98px) {
+    padding: 0 120px;
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 0;
+    align-items: center;
+  }
+
+  .promo-date {
+    color: $primary-1;
+    font-weight: 600;
+  }
+
+  .promo-subtext {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  .promo-btn {
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .promo-collect {
+    display: flex;
+    flex-direction: column;
+    color: $secondary-3;
+    font-size: 20px;
+  }
+}
+
+.amount {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.ioi2022-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}

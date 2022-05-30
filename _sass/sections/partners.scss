@@ -1,0 +1,19 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $secondary-1;
+  padding-bottom: 60px;
+
+  .partners-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .partner-item {
+      padding: 40px;
+      width: 204px;
+    }
+  }
+}

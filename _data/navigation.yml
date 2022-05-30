@@ -1,0 +1,8 @@
+- name: Inicio
+  link: /
+- name: Quienes Somos
+  link: /about
+- name: Blog
+  link: /blog
+- name: IOI 2022
+  link: /ioi-2022

@@ -1,0 +1,37 @@
+name: Build and Deploy (Production)
+
+on:
+  push:
+    branches:
+      - master
+
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Set-up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "2.7"
+        bundler-cache: true
+    - name: Build Site
+      run: bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
+    - name: Remove html Extension
+      run: find . -type f -name "*.html" | while read f; do cp "$f" "${f%.html}"; done
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+    - name: Deploy to Production bucket
+      run: aws s3 sync ./_site/ s3://fopi.org.pe --size-only --exclude "*" --include "*.*" --delete
+    - name: Copying with Content Type
+      run: aws s3 sync ./_site/ s3://fopi.org.pe --size-only --content-type text/html --exclude "*.*" --delete
+    - name: Invalidate Cloudfront
+      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"

@@ -1,0 +1,60 @@
+.site-footer {
+  background: $secondary-2;
+  color: white;
+
+  padding: 20px 100px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  a {
+    color: white;
+  }
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+
+  .footer-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer-terms {
+    align-self: start;
+  }
+}
+
+.footer-social {
+  .footer-logo {
+    svg {
+      width: 90px;
+    }
+  }
+
+  .footer-social-links {
+    display: flex;
+  }
+
+  .footer-social-item {
+    width: 35px;
+
+    img {
+      width: 20px;
+    }
+  }
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+
+  .footer-contact-title {
+    font-weight: bolder;
+  }
+}

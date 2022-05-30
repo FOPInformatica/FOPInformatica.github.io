@@ -1,0 +1,33 @@
+- name: Raul Gallegos
+  title: Director | Bitmaker.la
+  picture: /assets/images/raulgallegos.jpeg
+  description: |
+    Graduado en Ciencia de la Computación de la Universidad Católica San Pablo (2010)
+  social:
+    - name: linkedin
+      link: https://www.linkedin.com/in/elrull/
+    - name: github
+      link: https://github.com/elrull
+    - name: stack-overflow
+      link: https://stackoverflow.com/users/858913/elrull
+- name: Aldo Culquicondor
+  title: Software Developer | Google
+  picture: /assets/images/aldoculquicondor.jpeg
+#  description: nothing to show
+  social:
+    - name: linkedin
+      link: https://www.linkedin.com/in/aldo-culquicondor-68512348/
+- name: Walter Erquinigo
+  title: Software Engineer | Meta
+  picture: /assets/images/waltererquinigo.jpeg
+#  description: nothing to show
+  social:
+    - name: linkedin
+      link: https://www.linkedin.com/in/werquinigo/
+- name: Racsó Galván
+  title: Student | UNI
+  picture: /assets/images/racsogalvan.png
+#  description: nothing to show
+  social:
+    - name: linkedin
+      link: https://www.linkedin.com/in/victor-racs%C3%B3-galv%C3%A1n-oyola-1961b8b5/

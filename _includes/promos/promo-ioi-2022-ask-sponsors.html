@@ -1,0 +1,25 @@
+<div class="promo-ioi2022">
+    <div class="promo-content">
+        <div class="promo-date">
+        7 de Agosto
+        </div>
+        <div class="promo-subtext">
+            Llevemos al Perú a su primera Olimpiada Internacional
+            de Informática
+        </div>
+        <div class="promo-collect">
+            <div>Hasta el momento ya hemos recaudado <span class="amount">${{ site.data.collect.ioi2022.current }}</span></div>
+            {% assign current_percentage = site.data.collect.ioi2022.current | times: 100 | divided_by: site.data.collect.ioi2022.goal %}
+            {% assign need_percentage = site.data.collect.ioi2022.need | times: 100 | divided_by: site.data.collect.ioi2022.goal %}
+            {%- include utils/progressbar.html completed=current_percentage color="#0056AC" marker=need_percentage -%}
+            <div>
+                <span class="amount">{{ current_percentage }}%</span> de <span class="amount">${{ site.data.collect.ioi2022.goal }}</span>
+            </div>
+        </div>
+        <div class="promo-btn">
+            <a class="btn" href="/ioi-2022">
+                Quiero apoyar
+            </a>
+        </div>
+    </div>
+</div>

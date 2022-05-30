@@ -1,0 +1,36 @@
+.progress-bar-container {
+  width: 500px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  border: 1px solid $secondary-5;
+  overflow: hidden;
+  position: relative;
+  background-color: $secondary-5;
+
+  @media (max-width: 767.98px) {
+    width: 99%;
+    margin: 0;
+  }
+
+  span.progress-bar-completed {
+    height: 100%;
+    display: block;
+    width: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
+
+  span.progress-bar-marker {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-right: 2px solid green;
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
+}
