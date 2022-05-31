@@ -13,24 +13,32 @@ sponsor_levels:
     description: Bitmaker ayuda a la FOPI desde sus inicios, y esta vez no será la excepción dando apoyo monetario, humano y organizacional.
     link: https://bitmaker.la
 
+bank_info: |
+  <p>Interbank Cuenta Dólares: 3003004184372</p>
+  <p>Interbank Cuenta Dólares CCI: 00330000300418437210</p>
+  <p>Interbank Cuenta Soles: 3003004184306</p>
+  <p>Interbank Cuenta Soles CCI: 00330000300418430618</p>
+
+  No olvides avisarnos si haces una transferencia bancaria.
+  
+bank_link_text: |
+  <span class="blogpost-ioi2022"><img src="/assets/images/interbank.svg" /></span>
+
 modal_content: |
     <p>
-        IOI es un evento presencial que se llevará a cabo en Indonesia, y nosotros
-        llevaremos a 4 estudiantes que nos representarán.
-    </p>
-    <p>
+        La IOI es un evento presencial que se llevará a cabo en Indonesia y nosotros
+        llevaremos a 4 estudiantes que representarán al Perú.
         También tiene que ir por lo menos 1 representante de la FOPI con los estudiantes,
-        pero nos encantaría poder llevar a 2 miembros de la FOPI
+        pero nos encantaría poder llevar a 2 representantes.
     </p>
-    <p>la IOI cubrirá con todos los demás gastos una vez que lleguemos a Indonesia</p>
-    <p>Hemos estimado que cada pasaje en avión nos está costando alrededor de <span class="amount">$3300</span></p>
-    <p>
-        Todo remanente de los gastos para este evento se harán públicos y se usará
-        para futuros eventos y gastos operativos
+    <p>La IOI cubrirá con todos los demás gastos una vez que lleguemos a Indonesia, tal como hospedajes y alimentación.</p>
+    <p>Dicho esto, hemos estimado que cada pasaje en avión nos va a costar alrededor de <strong>$3300</strong>.
+       Todo remanente de los gastos para este evento se harán públicos y se usará
+       para futuros eventos y gastos operativos
     </p>
 
 modal_link_text: |
-    <h2 class="collect-explanation-title">* Para qué necesitamos el dinero?</h2>
+    <h2 class="collect-explanation-title">¿Para qué necesitamos el dinero?</h2>
 
 event_info: |
     <div>IOI 2022 - Indonesia</div>
@@ -59,16 +67,25 @@ event_info: |
 ---
 <div>
     <p>
-        Finalmente el Perú es parte de la <a href="/assets/documents/ioi2022-invitation.pdf" target="_blank">Olimpiada Internacional en Informática 2022</a>!!!
+      ¡Finalmente el Perú es parte de la <a href="/assets/documents/ioi2022-invitation.pdf" target="_blank">Olimpiada Internacional en Informática 2022</a>!
     </p>
-    <div class="ioi2022-contact">
+    <p>
+      La IOI es la competencia de Informática para escolares más prestigiosa del mundo, y necesitamos tu apoyo para hacer que la participación peruana sea realidad.
+    </p>
+  </br>
+    <div class="ioi2022-contact" id="ioi2022-collect">
         <div class="ioi2022-collect">
-            Puedes apoyar directamente:
+            Puedes apoyar directamente con Paypal:
             <a href="https://www.paypal.com/pools/c/8Kf1hMqVN5">
                 <i class="fa fa-2x fa-paypal"></i>
             </a>
         </div>
-        O puedes contactarnos para más información:
+        <div>
+            O por transferencia bancaria en el Perú:
+            {%- include utils/modal.html link_text=page.bank_link_text identifier="ioi2022" content=page.bank_info -%}
+        </div>
+
+        También puedes contactarnos para más información:
         <div class="ioi2022-contact-info">
           <a class="social" href="https://wa.me/{{ site.phone }}?text=Quiero Apoyar al Perú para la IOI2022">
             <i class="fa fa-2x fa-whatsapp"></i>
@@ -79,6 +96,6 @@ event_info: |
         </div>
     </div>
     <div class="collect-explanation">
-        {%- include utils/modal.html link_text=page.modal_link_text content=page.modal_content identifier="ioi2022" -%}
+        {%- include utils/modal.html link_text=page.modal_link_text content=page.modal_content identifier="ioi2022" backto="ioi2022-collect" -%}
     </div>
 </div>
