@@ -2,7 +2,7 @@
     <div class="site-stats">
         <div class="site-stats-description">
             {% assign current_year =  'now' | date: "%Y" %}
-            Venimos trabajando por más de {{ current_year | minus: site.start_year }} años
+            Venimos trabajando por más de {{ current_year | minus: site.start_year }} años por la educación del Perú.
         </div>
         <div class="site-stats-stats">
                 <div class="stats-item stats-members">
@@ -10,7 +10,15 @@
                         {{ site.data.members.size }}
                     </div>
                     <div class="stats-name">
-                        Members
+                        Miembros principales
+                    </div>
+                </div>
+                <div class="stats-item stats-members">
+                    <div class="stats-number">
+                        {{ site.data.collaborators.size }}
+                    </div>
+                    <div class="stats-name">
+                        Miembros asociados 
                     </div>
                 </div>
             {%- for stats_item in site.data.stats -%}

@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-size: 30px;
+  font-size: 20px;
   color: $secondary-3;
   padding: 0 160px;
   margin: 40px 0;
@@ -34,7 +34,7 @@
   }
 
   .promo-subtext {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 600;
     margin: 10px 0;
   }
@@ -50,11 +50,6 @@
     color: $secondary-3;
     font-size: 20px;
   }
-}
-
-.amount {
-  font-size: 30px;
-  font-weight: 600;
 }
 
 .ioi2022-contact {

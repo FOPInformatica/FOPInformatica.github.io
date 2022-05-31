@@ -24,7 +24,12 @@
       <div class="footer-contact">
         <div class="footer-contact-title">Contacto</div>
         <div class="footer-contact-email"> {{ site.email }} </div>
-        <div class="footer-contact-phone"> {{ site.phone }} </div>
+        <div class="footer-contact-phone"> 
+          {{ site.phone }} 
+          <a class="social" href="https://wa.me/{{ site.phone }}?text=Quiero conocer más sobre la FOPI">
+            <i class="fa fa-x fa-whatsapp"></i>
+          </a>
+        </div>
       </div>
       <div class="footer-pages-links">
         {%- for header_item in site.data.navigation -%}
@@ -37,7 +42,7 @@
       </div>
     </div>
     <div class="footer-terms">
-      2022 FOPI, todos los derechos reservados
+      <small> 2022 FOPI. Todos los derechos reservados. </small>
     </div>
   </div>
 </footer>

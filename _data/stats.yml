@@ -1,9 +1,12 @@
-- name: Eventos Organizados
+- name: Eventos organizados
   id: events
-  number: 5
-- name: Colegios Involucrados
+  number: 9 # 6 opis, 2 con segunda ronda, egoi 2021
+- name: Eventos en preparación
+  id: events
+  number: 2 # ioi, egoi
+- name: Colegios involucrados
   id: schools
-  number: 20
-- name: Estudiantes/Participantes
+  number: 30+
+- name: Estudiantes participantes
   id: students
   number: 500+

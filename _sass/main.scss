@@ -1,9 +1,9 @@
-$primary-1: #BF0909;
+$primary-1: #da2828;
 $primary-2: #0056AC;
 $secondary-1: #ECF2F9;
 $secondary-2: #1B253A;
 $secondary-3: #282525;
-$secondary-4: #191E24;
+$secondary-4: rgb(56, 71, 90);
 $secondary-5: #D7D7D7;
 
 .btn {
@@ -12,7 +12,7 @@ $secondary-5: #D7D7D7;
   padding: 20px 50px;
   border-radius: 42px;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
 
   &:hover {
     background-color: $secondary-1;
