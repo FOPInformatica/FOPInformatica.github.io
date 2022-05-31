@@ -53,5 +53,18 @@ permalink: /about
                 </div>
             </div>
         {%- endfor -%}
+      <div class="about-members-title">
+      </br>
+      Miembros asociados:
+      </div>
+      <div>
+        <ul>
+          <span class="about-collaborator">
+            {%- for member in site.data.collaborators -%}
+              <li>{{member.name}}</li>
+            {%- endfor -%}
+          </span>
+        </ul>
+      </div>
     </div>
 </div>
