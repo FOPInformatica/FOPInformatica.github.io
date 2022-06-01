@@ -2,8 +2,10 @@ name: Delete Review App
 
 on:
   pull_request:
-    branches: [ master ]
-    types: [ closed ]
+    branches:
+    - master
+    types:
+    - closed
 
 jobs:
   build:

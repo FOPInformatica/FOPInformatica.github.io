@@ -2,7 +2,8 @@ name: Build and Deploy (Review Apps)
 
 on:
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
   workflow_dispatch:
 jobs:
@@ -37,9 +38,5 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Clean bucket
-      run: aws s3 rm --recursive s3://fopi-review-app-pr${{ github.event.number }}
-    - name: Copying files
-      run: aws s3 cp ./_site s3://fopi-review-app-pr${{ github.event.number }} --exclude "*.html" --recursive
-    - name: Syncing necessary files
-      run: aws s3 sync ./_site s3://fopi-review-app-pr${{ github.event.number }} --exclude "*.*" --content-type 'text/html'
+    - name: Changing Content Type of files without extension
+      run: aws s3 cp ./_site s3://fopi-review-app-pr${{ github.event.number }} --recursive --exclude "*.*" --content-type 'text/html' --acl public-read
