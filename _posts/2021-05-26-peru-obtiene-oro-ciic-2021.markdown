@@ -4,7 +4,7 @@ title: "Perú obtiene Oro en la Competencia Iberoamericana de Informática y Com
 date: 2021-05-26 00:00:00 -0500
 categories: historia
 author: Walter Erquínigo
-image: /assets/images/egoi_2021.png
+image: /assets/images/oro-ciic-2021.png
 is_post: true
 avatar: /assets/images/waltererquinigo.jpeg
 author_company: Meta
