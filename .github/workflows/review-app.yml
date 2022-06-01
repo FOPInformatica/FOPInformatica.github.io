@@ -42,4 +42,4 @@ jobs:
     - name: Copying files
       run: aws s3 cp ./_site s3://fopi-review-app-pr${{ github.event.number }} --exclude "*.html" --recursive
     - name: Syncing necessary files
-      run: aws s3 sync ./_site s3://fopi-review-app-pr${{ github.event.number }} --exclude "*.*" --content-type 'text/html'
+      run: aws s3 cp ./_site s3://fopi-review-app-pr${{ github.event.number }} --recursive --exclude "*.*" --content-type 'text/html'
