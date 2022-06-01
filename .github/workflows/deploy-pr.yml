@@ -31,7 +31,7 @@ jobs:
     - name: Deploy Review App
       uses: danburtenshaw/s3-website-pr-action@v2
       with:
-        bucket-prefix: "review-app"
+        bucket-prefix: "fopi-review-app"
         folder-to-copy: "./_site"
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
