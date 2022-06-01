@@ -1,0 +1,45 @@
+name: Build and Deploy (Review Apps)
+
+on:
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Set-up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "2.7"
+        bundler-cache: true
+    - name: Build Site
+      run: bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
+    - name: Remove html Extension
+      run: find . -type f -name "*.html" | while read f; do cp "$f" "${f%.html}"; done
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+    - name: Deploy Review App
+      uses: danburtenshaw/s3-website-pr-action@v2
+      with:
+        bucket-prefix: "fopi-review-app"
+        folder-to-copy: "./_site"
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Clean bucket
+      run: aws s3 rm --recursive s3://fopi-review-app-pr${{ github.event.number }}
+    - name: Copying files
+      run: aws s3 cp ./_site s3://fopi-review-app-pr${{ github.event.number }} --exclude "*.html" --recursive
+    - name: Syncing necessary files
+      run: aws s3 sync ./_site s3://fopi-review-app-pr${{ github.event.number }} --exclude "*.*" --content-type 'text/html'
