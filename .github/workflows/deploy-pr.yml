@@ -1,9 +1,8 @@
-name: Build and Deploy (Staging)
+name: Build and Deploy (Review Apps)
 
 on:
-  push:
-    branches:
-      - staging
+  pull_request:
+    branches: [ master ]
 
   workflow_dispatch:
 jobs:
@@ -29,9 +28,12 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
-    - name: Deploy to Staging bucket
-      run: aws s3 sync ./_site/ s3://testing.fopi.org.pe --size-only --exclude "*" --include "*.*" --delete
-    - name: Copying with Content Type
-      run: aws s3 sync ./_site/ s3://testing.fopi.org.pe --size-only --content-type text/html --exclude "*.*" --delete
-    - name: Invalidate Cloudfront
-      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.STAGING_AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+    - name: Deploy Review App
+      uses: danburtenshaw/s3-website-pr-action@v2
+      with:
+        bucket-prefix: "review-app"
+        folder-to-copy: "./_site"
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
