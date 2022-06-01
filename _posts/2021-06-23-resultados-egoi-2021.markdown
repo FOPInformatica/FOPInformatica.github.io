@@ -11,7 +11,7 @@ author_company: Meta
 ---
 
 La primera edición de la EGOI, competencia europea de informática para mujeres a la que Perú fue invitado,
-finalizó el viernes y tenemos el agrado de informar que Virginia Puente Jara obtuvo una medalla de bronce.
+finalizó el viernes y tenemos el agrado de informar que Virginia Puente Jara obtuvo una medalla de bronce 🥉.
 !Excelentísimo resultado para nuestra representante peruana en su primera olimpiada internacional!
 Queremos también extender nuestras felicitaciones a nuestras otras dos competidoras peruanas Angie Alcantara y
 Ximena Gómez, que mostraron un buen rendimiento y dejaron al país en alto. Estamos seguros de que el año que
