@@ -9,18 +9,32 @@
     align-items: center;
     gap: 100px;
 
+    @media (max-width: 640px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
     .site-stats-description {
       width: 50%;
       font-size: 40px;
       font-weight: 700;
       color: $primary-1;
+
+      @media (max-width: 640px) {
+        width: 100%;
+      }
     }
 
     .site-stats-stats {
       display: flex;
+      width: 50%;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
+
+      @media (max-width: 640px) {
+        width: 100%;
+      }
     }
   }
 }
@@ -36,8 +50,10 @@
     color: $primary-2;
     font-weight: 700;
     font-size: 25px;
+    padding: 0 0.5rem;
   }
   .stats-name {
     word-break: break-word;
+    padding: 0 0.5rem;
   }
 }

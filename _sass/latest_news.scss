@@ -14,6 +14,10 @@
       color: $primary-1;
       font-size: 40px;
     }
+
+    @media (max-width: 720px) {
+      flex-direction: column;
+    }
   }
 
   .latest-news-list {
@@ -21,6 +25,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 35px;
+    justify-content: center;
 
     .latest-news-item {
       display: flex;
