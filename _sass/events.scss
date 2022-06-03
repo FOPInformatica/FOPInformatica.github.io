@@ -11,7 +11,7 @@
   color: white;
   word-break: break-all;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $breakpoint-lg) {
     flex-direction: column;
     word-break: normal;
     text-align: center;
@@ -21,7 +21,7 @@
     padding: 100px;
     font-size: 48px;
 
-    @media (max-width: 1023px) {
+    @media (max-width: $breakpoint-lg) {
       padding: 0;
       margin: 2rem 0;
     }
@@ -31,7 +31,7 @@
     width: 500px;
     margin-right: 2rem;
 
-    @media (max-width: 1023px) {
+    @media (max-width: $breakpoint-lg) {
       width: 80%;
       margin: 0 auto 2rem auto;
     }
@@ -179,7 +179,7 @@
   font-weight: 700;
   gap: 15px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $breakpoint-lg) {
     padding-top: 2rem;
     justify-content: center;
   }
@@ -191,14 +191,14 @@
 
   .countdown-subtext {
     font-size: 24px;
-    @media (max-width: 767.98px) {
+    @media (max-width: $breakpoint-md) {
       font-size: 1rem;
     }
   }
 }
 
 .countdown-number {
-  @media (max-width: 767.98px) {
+  @media (max-width: $breakpoint-md) {
     text-align: center;
     font-size: 2rem;
   }

@@ -10,7 +10,7 @@
     color: white;
   }
 
-  @media (max-width: 767.98px) {
+  @media (max-width: $breakpoint-md) {
     padding: 1.5rem 3.5rem;
   }
 }
@@ -31,7 +31,7 @@
     align-self: start;
     line-height: 1.2rem;
     
-    @media (max-width: 767.98px) {
+    @media (max-width: $breakpoint-md) {
       margin: 1rem auto;
       text-align: center;
     }
@@ -57,7 +57,7 @@
     }
   }
 
-  @media (max-width: 767.98px) {
+  @media (max-width: $breakpoint-md) {
     margin: 1rem auto;
     text-align: center;
   }
@@ -71,7 +71,7 @@
     font-weight: bolder;
   }
 
-  @media (max-width: 767.98px) {
+  @media (max-width: $breakpoint-md) {
     width: 100%;
     margin: 1rem 0;
     align-items: center;
@@ -79,7 +79,7 @@
 }
 
 .footer-pages-links {
-  @media (max-width: 767.98px) {
+  @media (max-width: $breakpoint-md) {
     width: 100%;
     margin: 1rem auto;
     text-align: center;

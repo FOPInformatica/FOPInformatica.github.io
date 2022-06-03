@@ -19,7 +19,7 @@
   height: 100%;
   width: 100%;
 
-  @media (max-width: 767.98px) {
+  @media (max-width: $breakpoint-md) {
     justify-content: center;
   }
 
@@ -39,7 +39,7 @@
     display: flex;
     // padding: 0.5rem 0;
 
-    @media (max-width: 767.98px) {
+    @media (max-width: $breakpoint-md) {
       justify-content: center;
     }
 
