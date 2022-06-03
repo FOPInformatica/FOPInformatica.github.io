@@ -19,7 +19,7 @@
   height: 100%;
   width: 100%;
 
-  @media (max-width: 767.98px) {
+  @media (max-width: $breakpoint-md) {
     justify-content: center;
   }
 
@@ -37,8 +37,9 @@
   .header-pages-links {
     flex: 1 1 auto;
     display: flex;
+    // padding: 0.5rem 0;
 
-    @media (max-width: 767.98px) {
+    @media (max-width: $breakpoint-md) {
       justify-content: center;
     }
 
@@ -51,5 +52,6 @@
     flex: 0 0 200px;
     display: flex;
     justify-content: space-evenly;
+    padding: 0.5rem 0;
   }
 }

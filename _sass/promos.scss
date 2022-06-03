@@ -5,8 +5,12 @@
   display: flex;
   align-items: center;
 
-  @media (max-width: 991.98px) {
+  @media (max-width: $breakpoint-lg) {
     background-size: auto 100%;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    min-height: unset;
   }
 }
 
@@ -17,15 +21,14 @@
   font-size: 20px;
   color: $secondary-3;
   padding: 0 160px;
-  margin: 40px 0;
+  margin: 3rem 0;
 
-  @media (max-width: 991.98px) {
-    padding: 0 120px;
+  @media (max-width: $breakpoint-lg) {
+    padding: 0 5rem;
   }
 
-  @media (max-width: 767.98px) {
-    padding: 0;
-    align-items: center;
+  @media (max-width: $breakpoint-md) {
+    padding: 0 2rem;
   }
 
   .promo-date {
