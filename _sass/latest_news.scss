@@ -38,6 +38,7 @@
 
       .post-meta {
         font-size: 15px;
+        margin-top: auto;
       }
     }
   }
@@ -45,5 +46,9 @@
   .post-header {
     height: 280px;
     justify-content: end;
+
+    img {
+      margin: auto;
+    }
   }
 }
