@@ -4,12 +4,14 @@
   align-items: center;
   background-color: $secondary-1;
   padding-bottom: 60px;
+  gap: 50px;
 
   .partners-logo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
 
     .partner-item {
       padding: 40px;

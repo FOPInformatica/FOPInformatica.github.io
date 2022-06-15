@@ -3,7 +3,11 @@
     {%- for partner in site.data.partners -%}
         <div class="partner-item">
           <a href="{{ partner.link }}">
-            {% include {{ partner.logo | append: '.svg.html' }} %}
+              {% if partner.logo %}
+                {% include {{ partner.logo | append: '.svg.html' }} %}
+              {% elsif partner.img %}
+                <img src="{{ partner.img }}" alt="{{ partner.name }}"/>
+              {% endif %}
           </a>
         </div>
       {%- endfor -%}
