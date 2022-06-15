@@ -91,6 +91,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 
     .sponsor-item-description {
       text-align: center;
@@ -211,4 +212,17 @@
     font-size: 20px;
     color: $primary-2;
   }
+}
+
+
+.sponsor-item-logo-container.valmer {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.sponsor-item-logo-container.ucsp {
+  height: 120px;
+  display: flex;
+  align-items: center;
 }
