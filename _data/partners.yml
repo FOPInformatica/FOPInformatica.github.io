@@ -1,3 +1,9 @@
 - name: Bitmaker
   link: https://bitmaker.la/
   logo: bitmaker
+- name: Valmer
+  link: https://bitmaker.la/
+  img: /assets/images/valmer.png
+- name: Universidad Católica San Pablo
+  link: https://bitmaker.la/
+  img: /assets/images/ucsp.svg
