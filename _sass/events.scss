@@ -42,6 +42,10 @@
   margin: 120px 0;
   font-size: 32px;
   text-align: center;
+
+  @media (max-width: $breakpoint-sm) {
+    padding: 0 2.5rem;
+  }
 }
 
 .event-sponsors {
@@ -92,10 +96,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    gap: 15px;
 
     .sponsor-item-description {
       text-align: center;
-      margin-top: 15px;
     }
   }
 }
