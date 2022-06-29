@@ -43,9 +43,11 @@
                       <img class="sponsor-item-logo" src="{{ sponsor.logo }}" alt="{{ sponsor.description }}" />
                     </a>
                   </div>
-                  <div class="sponsor-item-description">
-                    {{ sponsor.description }}
-                  </div>
+                  {%- if sponsor.description -%}
+                    <div class="sponsor-item-description">
+                      {{ sponsor.description }}
+                    </div>
+                  {%- endif -%}
                 {% else %}
                   <div class="sponsor-item-logo-container {{ sponsor.id }}">
                     <a href="{{ sponsor.link }}">
