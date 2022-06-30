@@ -23,7 +23,11 @@ En esta serie de competiciones, las competidoras elegibles más destacadas será
 - En caso contrario, sólo ingrese al link de la competencia directamente. Las competiciones son abiertas.
 
 # Competiciones
+<<<<<<< HEAD
 Las 6 competiciones de 4 horas se llevarán a cabo de manera online en la plataforma de [Yandex Contest](https://contest.yandex.ru/contest/3/enter/?lang=en) en las siguientes fechas:
+=======
+Las 6 competiciones de 4 horas se llevarán a cabo de manera online en la plataforma de [Yandex Contest](https://contest.yandex.ru/contest/3/enter/?lang=en) (vea la seción final de este post para ver cómo crearse una cuenta en esta plataforma) en las siguientes fechas:
+>>>>>>> 40263c1 (liga peruana)
 
 - Domingo 10 de julio a las 2 PM.
 - Domingo 17 de julio a las 2 PM.
@@ -93,5 +97,21 @@ Además, se incluirá temas más avanzados como:
 - Árboles y estructuras de datos avanzadas
 - Algoritmos de cadenas
 - Técnicas avanzadas como compresión de coordenadas y búsqueda binaria
+
+<div id="creacion_de_cuenta">
+</div>
+# Cómo crearse una cuenta en Yandex Context
+
+1. Use Google Chrome necesariamente.
+2. Entre a https://contest.yandex.ru/contest/3/enter/?lang=en.
+3. Haga click en **Log in** en la parte superior derecha.
+4. Este formulario está en ruso, por lo que les recomendamos hacer click derecho en cualquier parte de esa página y seleccionar **traducir al español**. Este paso lo tendrá que hacer para cada nuevo formulario que aparezca en ruso.
+5. Ahora seleccione **Crear Identificación**.
+6. En el nuevo formulario, ingrese su correo electrónico y dele click al botón amarillo.
+7. Se les enviará un código a su correo, así que ingréselo y luego click al botón amarillo.
+8. Ingrese sus nombres y apellidos y luego click al botón amarillo.
+9. Ingrese una contraseña y click al botón amarillo.
+10. Este nuevo formulario es para aceptar las políticas de privacidas, así que click al botón amarillo.
+11. ¡Listo! Su nombre de usuario es su correo electrónico. Este correo lo tiene que compartir en el [formulario de registro para las elegibles a la EGOI](https://docs.google.com/forms/d/1LqC3GmAT-8ZmmO3BN5UgXEDG-GpEDykk1uFaiY2NJYU).
 
 ¡Mucha suerte y diviértanse! 💪🏼💻🤓🇵🇪
