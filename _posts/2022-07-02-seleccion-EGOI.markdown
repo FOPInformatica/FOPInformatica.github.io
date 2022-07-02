@@ -23,11 +23,7 @@ En esta serie de competiciones, las competidoras elegibles más destacadas será
 - En caso contrario, sólo ingrese al link de la competencia directamente. Las competiciones son abiertas.
 
 # Competiciones
-<<<<<<< HEAD
-Las 6 competiciones de 4 horas se llevarán a cabo de manera online en la plataforma de [Yandex Contest](https://contest.yandex.ru/contest/3/enter/?lang=en) en las siguientes fechas:
-=======
 Las 6 competiciones de 4 horas se llevarán a cabo de manera online en la plataforma de [Yandex Contest](https://contest.yandex.ru/contest/3/enter/?lang=en) (vea la seción final de este post para ver cómo crearse una cuenta en esta plataforma) en las siguientes fechas:
->>>>>>> 40263c1 (liga peruana)
 
 - Domingo 10 de julio a las 2 PM.
 - Domingo 17 de julio a las 2 PM.
