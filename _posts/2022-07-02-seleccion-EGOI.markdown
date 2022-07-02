@@ -42,7 +42,7 @@ Habrán premios para las mejores 6 competidoras elegibles en el ranking global. 
 
 Para cualquier duda, pueden entrar a nuestro canal de [discord](https://discord.gg/qexFQjyjh4) o enviarnos un [correo](mailto:contacto@fopi.org.pe).
 
-# Puntuación global (para todas las participantes elegibles)
+# Puntuación global (exclusivamente para las participantes elegibles)
 Con la finalidad de dar libertad a los participantes respecto de su horario, solo se tomarán en cuenta las mejores 4 participaciones de cada participante para su evaluación final.
 
 El puntaje de un participante en cada competencia estará definido según una variación de la fórmula del ITMO:
@@ -51,10 +51,10 @@ R = 200 * ((n - puesto + 1) / n) * (puntos / maxpuntos)
 
 Donde:
         
-- n es la cantidad de participantes
-- puesto es el puesto obtenido en la competencia
-- puntos es la cantidad de puntos obtenidos por el participante
-- maxpuntos es la cantidad de puntos obtenidos por el primer puesto
+- n: la cantidad de participantes elegible.
+- puesto: la posición obtenida en la competencia considerando solamente las participantes elegibles.
+- puntos: la cantidad de puntos obtenidos por la participante.
+- maxpuntos: la cantidad de puntos obtenidos por la primer puesto de entre las participantes elegibles.
 
 En el caso de ausencia de la participante, su puntaje asignado será de 0.
 
