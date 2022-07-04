@@ -14,9 +14,11 @@ La Federación Olímpica Peruana de Informática invita al público en general, 
 En esta serie de competiciones, las competidoras elegibles más destacadas serán invitadas a representar al Perú en la European Girls' Olympiad in Informatics (EGOI) 2022 a realizarse en Turquía del 16 al 23 de octubre de este año.
 
 # Requisitos de elegibilidad para clasificar la EGOI
-- Ser mujer (según el DNI).
+- Ser mujer.
 - Ser no mayor de 20 años de edad el 1 de julio de 2022.
-- Haber estudiado el año 2021 en el colegio o en alguna otra institución pre-universitaria. O sea puede estar cursando el primer año de universidad.
+- Haber estudiado el año 2021 en el colegio o en alguna otra institución pre-universitaria en el Perú. O sea puede estar cursando el primer año de universidad, mas no el segundo año.
+- Se puede ser extranjero mientras se estudie en el Perú.
+- Como caso excepcional, se puede estudiar en el extranjero mientras tenga nacionalidad peruana. Aunque este caso requiere un pedido a la organización de la EGOI.
 
 # Cómo participar
 - Si es elegible para la EGOI, regístrese en este [formulario](https://docs.google.com/forms/d/1LqC3GmAT-8ZmmO3BN5UgXEDG-GpEDykk1uFaiY2NJYU/edit).
