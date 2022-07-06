@@ -68,7 +68,7 @@ cuenta bancaria y nuestro enlace a la donación por Paypal si deseas apoyarnos m
 <br />
 <br />
 {%- include utils/modal.html link_text=page.bank_link_text identifier="blogpostioi2022" content=page.bank_info -%}
-<a href="https://www.paypal.com/pools/c/8Kf1hMqVN5">
+<a href="https://www.paypal.com/pools/c/8LhPDoMYHJ">
   <i class="fa fa-2x fa-paypal"></i> Paypal
 </a>
 
