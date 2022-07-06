@@ -1,18 +1,20 @@
-<div class="post-header">
-    <img src="{{ include.post.image }}" alt="{{ include.post.title }}" />
-    <div class="post-meta">
-      <div class="post-meta-time">
-        {%- include time.svg.html -%}
-        <time class="dt-published" datetime="{{ include.post.date | date_to_xmlschema }}" itemprop="datePublished">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          {{ include.post.date | date: date_format }}
-        </time>
-      </div>
-      {%- if include.post.author -%}
-        <div class="post-meta-author">
-          {%- include author.svg.html -%}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ include.post.author }}</span></span>
+<a href="{{ post.url | relative_url }}">
+  <div class="post-header">
+      <img src="{{ include.post.image }}" alt="{{ include.post.title }}" />
+      <div class="post-meta">
+        <div class="post-meta-time">
+          {%- include time.svg.html -%}
+          <time class="dt-published" datetime="{{ include.post.date | date_to_xmlschema }}" itemprop="datePublished">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {{ include.post.date | date: date_format }}
+          </time>
         </div>
-      {%- endif -%}
-    </div>
-</div>
+        {%- if include.post.author -%}
+          <div class="post-meta-author">
+            {%- include author.svg.html -%}
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ include.post.author }}</span></span>
+          </div>
+        {%- endif -%}
+      </div>
+  </div>
+</a>
