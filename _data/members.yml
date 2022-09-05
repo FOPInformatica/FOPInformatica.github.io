@@ -11,19 +11,22 @@
     - name: stack-overflow
       link: https://stackoverflow.com/users/858913/elrull
 - name: Walter Erquinigo
-  title: Comité científico de la FOPI | Meta
+  title: Comité Científico de la FOPI | Meta
   picture: /assets/images/waltererquinigo.jpeg
 #  description: nothing to show
   social:
     - name: linkedin
       link: https://www.linkedin.com/in/werquinigo/
 - name: Racsó Galván
-  title: Comité científico de la FOPI | UNI
+  title: Comité Científico de la FOPI | UNI
   picture: /assets/images/racsogalvan.png
 #  description: nothing to show
   social:
     - name: linkedin
       link: https://www.linkedin.com/in/victor-racs%C3%B3-galv%C3%A1n-oyola-1961b8b5/
+- name: Luis Vásquez
+  title: Comité Científico de la FOPI | UNI
+  picture: /assets/images/luisvasquez.jpeg
 - name: Fiorella Barrientso
   title: Comité de Promoción y Relaciones Públicas la FOPI | UPC
   picture: /assets/images/fiorella.jpeg
