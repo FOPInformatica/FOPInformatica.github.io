@@ -10,6 +10,8 @@
         </svg>
       </a>
     </div>
+    <label for="toggle-hidden" class="menu-bar"><i class="fa fa-bars"></i></label>
+    <input type="checkbox" id="toggle-hidden" class="hidden">
     <div class="header-pages-links">
       {%- for header_item in site.data.navigation -%}
       <a href="{{ header_item.link }}">
