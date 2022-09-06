@@ -18,7 +18,9 @@
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
-
+.menu-bar,.hidden{
+  display: none;
+}
   @media (max-width: $breakpoint-md) {
     justify-content: center;
   }
@@ -46,12 +48,87 @@
     .header-page-item {
       padding: 5px;
     }
+    
   }
-
+  
   .header-contact {
     flex: 0 0 200px;
     display: flex;
     justify-content: space-evenly;
     padding: 0.5rem 0;
+    
+  }
+  @media screen and (max-width: 700px) {
+    .header-pages-links{
+      display: block;
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin: 0;
+      padding: 0;
+      background-color: #ECF2F9;
+      overflow: auto;
+    }
+    .header-contact{
+      display: none;
+    }
+    .header-pages-links a{
+      display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    
+    }
+    .page-content{
+        padding: 0px 16px;
+        height: 1000px;
+    }
+    .header-pages-links a:hover{
+      background-color: rgb(61, 59, 59);
+      color: white;
+    }
+    .header-pages-links a {float: left;}
+    .page-content{margin-left: 0;}
+  }
+  @media screen and (max-width: 465px){
+    .header-contact{
+      display: none;
+    }
+    .header-pages-links a{
+      
+      text-align: center;
+      float: none;
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+    
+    .hidden{
+      visibility: hidden;
+    }
+    .page-content{
+      padding: 1px 16px;
+      height: 1000px;
+    }
+    .menu-bar{
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 20px;
+    }
+    .menu-bar i{
+      font-size: 22px;
+    }
+    .header-pages-links{
+      height: 0;
+      background-color: #ECF2F9;
+      overflow: hidden;
+    }
+    :checked ~ .header-pages-links{height: auto;}
+    
+    .menu-bar:hover{
+      cursor: pointer;
+    }
   }
 }
