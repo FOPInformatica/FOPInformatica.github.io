@@ -1,9 +1,9 @@
 ---
 layout: event
-hero_image: /assets/images/ioi-2022.svg
-hero_link: https://ioi2022.id/
-permalink: /ioi-2022
-event_date: "Aug 7, 2022 00:00:00"
+hero_image: /assets/images/egoi2022.png
+hero_link: https://egoi2022.id/
+permalink: /egoi-2022
+event_date: "Oct 16, 2022 00:00:00"
 sponsor_levels:
 
 - name: Visionary
@@ -188,35 +188,35 @@ sponsor_levels:
     id: edgarmarca
 
 bank_info: |
-  <p>Interbank Cuenta Dólares: 3003004184372</p>
-  <p>Interbank Cuenta Dólares CCI: 00330000300418437210</p>
-  <p>Interbank Cuenta Soles: 3003004184306</p>
-  <p>Interbank Cuenta Soles CCI: 00330000300418430618</p>
+  <p>Cuenta Dólares BCP: 194-97019024-1-12</p>
+  <p>Cuenta Dólares CCI BCP: 00219419701902411298</p>
+  <p>Cuenta Soles BCP: 194-97019009-0-97</p>
+  <p>Cuenta Soles CCI BCP: 00219419701900909790</p>
 
-  No olvides avisarnos si haces una transferencia bancaria.
+  Cuentas a nombre de Walter Erquínigo, tesorero de la FOPI.
   
 bank_link_text: |
-  <span class="blogpost-ioi2022"><img src="/assets/images/interbank.svg" /></span>
+  <span class="blogpost-egoi2022"><img class="img-1" src="/assets/images/bcp.svg" /></span>
 
 modal_content: |
     <p>
-        La IOI es un evento presencial que se llevará a cabo en Indonesia y nosotros
+        La EGOI es un evento presencial que se llevará a cabo en Turquía y nosotros
         llevaremos a 4 estudiantes que representarán al Perú.
         También tiene que ir por lo menos 1 representante de la FOPI con los estudiantes,
         pero nos encantaría poder llevar a 2 representantes.
     </p>
-    <p>La IOI cubrirá con todos los demás gastos una vez que lleguemos a Indonesia, tal como hospedajes y alimentación.</p>
+    <p>La EGOI cubrirá con todos los demás gastos una vez que lleguemos a Turquía, tal como hospedajes y alimentación.</p>
     <p>Dicho esto, hemos estimado que cada pasaje en avión nos va a costar alrededor de <strong>$3300</strong>.
        Todo remanente de los gastos para este evento se harán públicos y se usará
        para futuros eventos y gastos operativos
     </p>
 
 modal_link_text: |
-    <h2 class="collect-explanation-title">¿Para qué necesitamos el dinero?</h2>
+   
 
 event_info: |
-    <div>IOI 2022 - Indonesia</div>
-    <div>International Olympiad in Informatics</div>
+    <div class="event-title">EGOI 2022 - Turquía</div>
+    <div class="event-subtitle">European Girls’ Olympiad in Informatics</div>
     <div class="event-countdown">
         <div class="countdown-item">
             <span id="countdown-days" class="countdown-number"></span>
@@ -241,27 +241,33 @@ event_info: |
 ---
 <div>
     <p>
-      ¡Finalmente el Perú es parte de la <a href="/assets/documents/ioi2022-invitation.pdf" target="_blank">Olimpiada Internacional en Informática 2022</a>!
+      ¡Finalmente el Perú es parte de la <a href="/assets/documents/ioi2022-invitation.pdf" target="_blank">European Girls’ Olympiad in Informatics 2022</a>!
     </p>
     <p>
-      La IOI es la competencia de Informática para escolares más prestigiosa del mundo, y necesitamos tu apoyo para hacer que la participación peruana sea realidad.
+      La EGOI es la competencia de Informática para escolares más prestigiosa del mundo, y necesitamos tu apoyo para hacer que la participación peruana sea realidad.
     </p>
   </br>
-    <div class="ioi2022-contact" id="ioi2022-collect">
-        <div class="ioi2022-collect">
+    <div class="egoi2022-contact" id="egoi2022-collect">
+        <div class="egoi2022-collect">
             Puedes apoyar directamente con Paypal:
-            <a href="https://www.paypal.com/pools/c/8LhPDoMYHJ">
+            <a href="https://paypal.me/fopiperu">
                 <i class="fa fa-2x fa-paypal"></i>
             </a>
         </div>
-        <div>
+        <div class="egoi2022-collect">
+          Con GoFundMe:
+          <a href="https://gofund.me/d71768bb">
+              <img src="/assets/images/GoFundMe_logo.svg" alt="">
+          </a>
+      </div>
+        <div class="egoi2022-collect">
             O por transferencia bancaria en el Perú:
-            {%- include utils/modal.html link_text=page.bank_link_text identifier="ioi2022" content=page.bank_info -%}
+            {%- include utils/modal.html link_text=page.bank_link_text identifier="egoi2022" content=page.bank_info -%}
         </div>
 
         También puedes contactarnos para más información:
-        <div class="ioi2022-contact-info">
-          <a class="social" href="https://wa.me/{{ site.phone }}?text=Quiero Apoyar al Perú para la IOI2022">
+        <div class="egoi2022-contact-info">
+          <a class="social" href="https://wa.me/{{ site.phone }}?text=Quiero Apoyar al Perú para la EGOI2022">
             <i class="fa fa-2x fa-whatsapp"></i>
           </a>
           <a class="social" href="mailto:{{ site.email }}">
@@ -270,6 +276,6 @@ event_info: |
         </div>
     </div>
     <div class="collect-explanation">
-        {%- include utils/modal.html link_text=page.modal_link_text content=page.modal_content identifier="ioi2022" backto="ioi2022-collect" -%}
+        {%- include utils/modal.html link_text=page.modal_link_text content=page.modal_content identifier="egoi2022" backto="egoi2022-collect" -%}
     </div>
 </div>

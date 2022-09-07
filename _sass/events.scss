@@ -37,7 +37,9 @@
     }
   }
 }
-
+.event-subtitle,.event-title{
+  word-wrap: break-word;
+}
 .event-description {
   margin: 120px 0;
   font-size: 32px;
@@ -174,7 +176,7 @@
   }
 }
 
-// IOI 2022
+// EGOI 2022
 
 .event-countdown {
   padding-top: 50px;
