@@ -3,13 +3,13 @@
 }
 
 .event-hero {
-  background-color: $secondary-4;
+  background-color: $secondary-6;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   color: white;
-  word-break: break-all;
+  word-break: break-word;
 
   @media (max-width: $breakpoint-lg) {
     flex-direction: column;
@@ -36,9 +36,6 @@
       margin: 0 auto 2rem auto;
     }
   }
-}
-.event-subtitle,.event-title{
-  word-wrap: break-word;
 }
 .event-description {
   margin: 120px 0;
