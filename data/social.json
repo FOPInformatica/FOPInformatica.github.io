@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/InformaticaPe",
+      "icon": "fa-facebook"
+    },
+    {
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/company/fed-olimpica-peruana-informatica/",
+      "icon": "fa-linkedin"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/fopInformatica",
+      "icon": "fa-github"
+    },
+    {
+      "name": "Youtube",
+      "link": "https://www.youtube.com/channel/UC5fcUtSe8oPyN7sNRvLI4ow",
+      "icon": "fa-youtube"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/olimp_pe/",
+      "icon": "fa-instagram"
+    }
+  ]
