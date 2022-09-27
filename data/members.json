@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Raul Gallegos",
+      "title": "Director de la FOPI | Bitmaker.la",
+      "picture": "/assets/images/raulgallegos.jpeg",
+      "description": "Graduado en Ciencia de la Computación de la Universidad Católica San Pablo (2010)\n",
+      "social": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/elrull/"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/elrull"
+        },
+        {
+          "name": "stack-overflow",
+          "link": "https://stackoverflow.com/users/858913/elrull"
+        }
+      ]
+    },
+    {
+      "name": "Walter Erquinigo",
+      "title": "Comité Científico de la FOPI | Meta",
+      "picture": "/assets/images/waltererquinigo.jpeg",
+      "social": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/werquinigo/"
+        }
+      ]
+    },
+    {
+      "name": "Racsó Galván",
+      "title": "Comité Científico de la FOPI | UNI",
+      "picture": "/assets/images/racsogalvan.png",
+      "social": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/victor-racs%C3%B3-galv%C3%A1n-oyola-1961b8b5/"
+        }
+      ]
+    },
+    {
+      "name": "Luis Vasquez",
+      "title": "Comité Científico de la FOPI | UNI",
+      "picture": "/assets/images/luisvasquez.jpeg"
+    },
+    {
+      "name": "Fiorella Barrientso",
+      "title": "Comité de Promoción y Relaciones Públicas la FOPI | UPC",
+      "picture": "/assets/images/fiorella.jpeg",
+      "social": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/fbv1234/"
+        }
+      ]
+    },
+    {
+      "name": "Juan Gutierrez",
+      "title": "Comité de Concursos de la FOPI | UTEC",
+      "picture": "/assets/images/juangutierrez.jpeg",
+      "social": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/juan-guti%C3%A9rrez-55b781190/"
+        }
+      ]
+    },
+    {
+      "name": "Aldo Culquicondor",
+      "title": "Comité Organizacional de la FOPI | Google",
+      "picture": "/assets/images/aldoculquicondor.jpeg",
+      "social": [
+        {
+          "name": "linkedin",
+          "link": "https://www.linkedin.com/in/aldo-culquicondor-68512348/"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Inicio",
+      "link": "/"
+    },
+    {
+      "name": "Quiénes Somos",
+      "link": "/about"
+    },
+    
+    {
+      "name": "Prepárate",
+      "link": "/material"
+    },
+    {
+      "name": "EGOI 2022",
+      "link": "/egoi-2022"
+    }
+  ]
+  
