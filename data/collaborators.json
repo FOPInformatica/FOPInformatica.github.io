@@ -1,20 +1,26 @@
 [
     {
-      "name": "Virginia Puente (UTEC)"
+      "name": "Virginia Puente",
+      "title" : "UTEC"
     },
     {
-      "name": "Alfredo de la Fuente (Google)"
+      "name": "Alfredo de la Fuente",
+      "title" : "Google"
     },
     {
-      "name": "Cesar Erquínigo (Valmer Systems)"
+      "name": "Cesar Erquínigo",
+      "title" : "Valmer Systems"
     },
     {
-      "name": "Miguel Miní (UNI)"
+      "name": "Miguel Miní",
+      "title" : "UNI"
     },
     {
-      "name": "Jesús Rey (PUCP)"
+      "name": "Jesús Rey",
+      "title" : "PUCP"
     },
     {
-      "name": "Sebastian Jara (SENATI)"
+      "name": "Sebastian Jara",
+      "title" : "SENATI"
     }
   ]

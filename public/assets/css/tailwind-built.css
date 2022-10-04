@@ -497,7 +497,9 @@ video {
     var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
     var(--tw-sepia) var(--tw-drop-shadow);
 }
-
+.logo {
+  height: 30px;
+}
 .progress {
   background-color: #d8d8d8;
   border-radius: 20px;
@@ -1312,6 +1314,10 @@ video {
   --tw-bg-opacity: 1 !important;
   background-color: rgba(248, 250, 252, var(--tw-bg-opacity)) !important;
 }
+.text-blueGray-50 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgba(248, 250, 252, var(--tw-bg-opacity)) !important;
+}
 .bg-blueGray-100 {
   --tw-bg-opacity: 1 !important;
   background-color: rgba(241, 245, 249, var(--tw-bg-opacity)) !important;
@@ -1627,6 +1633,18 @@ video {
 .text-body {
   --tw-text-opacity: 1 !important;
   color: rgba(30, 41, 59, var(--tw-text-opacity)) !important;
+}
+.bg-red-500 {
+  background-color: rgb(239 68 68) !important;
+}
+.bg-red-700 {
+  background-color: rgb(168, 31, 31) !important;
+}
+.text-red-500 {
+  color: rgb(239 68 68) !important;
+}
+.text-red-500 {
+  color: rgb(212, 39, 39) !important;
 }
 .text-blueGray-600 {
   --tw-text-opacity: 1 !important;
@@ -2069,7 +2087,7 @@ li.menu-item-has-children.active .menu-expand {
   text-align: center;
   overflow: hidden;
   z-index: 999 !important;
-  background-color: #086ad8;
+  background-color: #f03737;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.03);
   display: flex;
   align-content: center;
