@@ -167,7 +167,7 @@ const Footer = ()=>{
 /* harmony default export */ const layout_Footer = (Footer);
 
 ;// CONCATENATED MODULE: ./data/navigation.json
-const navigation_namespaceObject = JSON.parse('[{"name":"Inicio","link":"/"},{"name":"Quiénes Somos","link":"/about"},{"name":"Prepárate","link":"/material"},{"name":"EGOI 2022","link":"/egoi-2022"},{"name":"Contacto","link":"/contact"}]');
+const navigation_namespaceObject = JSON.parse('[{"name":"Inicio","link":"/"},{"name":"Quiénes Somos","link":"/about"},{"name":"Prepárate","link":"/material"},{"name":"EGOI 2022","link":"/egoi-2022"}]');
 ;// CONCATENATED MODULE: ./components/layout/Header.jsx
 
 
