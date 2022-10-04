@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Páginas Web",
+        "contenido":["CP Algorithms","PEGWiki"]
+    },
+    {
+        "name": "Canales de Youtube",
+        "contenido":["Canal oficial de la FOPI","Algorithms Live!","Errichto","SecondThread","Agustín Gutiérrez (elsantodel90) (Español)"]
+    },
+    {
+        "name": "Repositorios de problemas",
+        "contenido":["Junior Sheet - Mostafa Saad, recomendado para principiantes","General Sheet - Mostafa Saad, recomendado para avanzados","AtCoder problems","Uhunt, complemento online al libro Competitive Programming 3","ProgVar.Fun","Competitive programming ladders","Codedrills Recommender"]
+    }
+]

@@ -10,6 +10,7 @@ import site from "../data/site.json";
 import Partners from "../components/elements/Partners";
 var now = new Date();
 var year = now.getFullYear();
+var yearstart = year - site["year-start"];
 var memb = Object.keys(members).length;
 var coll = Object.keys(collaborators).length;
 var email = `mailto:${site["email"]}?subject=Quiero ayudar a la FOPI!`;
@@ -35,7 +36,8 @@ function Home() {
           </div>
           <div id="contest" className="container px-4 mx-auto ">
             <div className="text-center text-3xl  mb-4 font-bold py-6">
-              Venimos trabajando por más de 6 años por la educación del Perú.
+              Venimos trabajando por más de {yearstart} años por la{" "}
+              <span className="text-red-500">educación del Perú.</span>
             </div>
             <div className="flex flex-wrap justify-between pt-8 pb-16">
               <div

@@ -2,7 +2,7 @@
     {
       "name": "Raul Gallegos",
       "title": "Director de la FOPI | Bitmaker.la",
-      "picture": "/assets/images/raulgallegos.jpeg",
+      "picture": "raulgallegos.jpeg",
       "description": "Graduado en Ciencia de la Computación de la Universidad Católica San Pablo (2010)\n",
       "social": [
         {
@@ -22,7 +22,7 @@
     {
       "name": "Walter Erquinigo",
       "title": "Comité Científico de la FOPI | Meta",
-      "picture": "/assets/images/waltererquinigo.jpeg",
+      "picture": "waltererquinigo.jpeg",
       "social": [
         {
           "name": "linkedin",
@@ -33,7 +33,7 @@
     {
       "name": "Racsó Galván",
       "title": "Comité Científico de la FOPI | UNI",
-      "picture": "/assets/images/racsogalvan.png",
+      "picture": "racsogalvan.png",
       "social": [
         {
           "name": "linkedin",
@@ -44,12 +44,12 @@
     {
       "name": "Luis Vasquez",
       "title": "Comité Científico de la FOPI | UNI",
-      "picture": "/assets/images/luisvasquez.jpeg"
+      "picture": "luisvasquez.jpeg"
     },
     {
       "name": "Fiorella Barrientso",
       "title": "Comité de Promoción y Relaciones Públicas la FOPI | UPC",
-      "picture": "/assets/images/fiorella.jpeg",
+      "picture": "fiorella.jpeg",
       "social": [
         {
           "name": "linkedin",
@@ -60,7 +60,7 @@
     {
       "name": "Juan Gutierrez",
       "title": "Comité de Concursos de la FOPI | UTEC",
-      "picture": "/assets/images/juangutierrez.jpeg",
+      "picture": "juangutierrez.jpeg",
       "social": [
         {
           "name": "linkedin",
@@ -71,7 +71,7 @@
     {
       "name": "Aldo Culquicondor",
       "title": "Comité Organizacional de la FOPI | Google",
-      "picture": "/assets/images/aldoculquicondor.jpeg",
+      "picture": "aldoculquicondor.jpeg",
       "social": [
         {
           "name": "linkedin",
