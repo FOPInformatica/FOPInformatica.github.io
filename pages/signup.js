@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
-
+import { ShowText } from "../components/elements/ShowText";
 const Signup = () => {
   return (
     <>
@@ -44,25 +44,11 @@ const Signup = () => {
                   </svg>
                 </div>
                 <div className="flex mb-6 px-4 bg-blueGray-50 rounded border border-gray-200">
-                  <input
-                    className="w-full py-4 text-xs placeholder-blueGray-400 font-semibold leading-none bg-blueGray-50 outline-none"
-                    type="password"
-                    placeholder="Ingrese su contraseña"
-                  />
-                  <button className="ml-4">
-                    <i class="text-xl h-6 w-6 my-auto text-blueGray-300 fa-regular fa-eye"></i>
-                  </button>
+                  <ShowText texto="Ingrese su contraseña" />
                 </div>
 
                 <div className="flex mb-6 px-4 bg-blueGray-50 rounded border border-gray-200">
-                  <input
-                    className="w-full py-4 text-xs placeholder-blueGray-400 font-semibold leading-none bg-blueGray-50 outline-none"
-                    type="password"
-                    placeholder="Confirm password"
-                  />
-                  <button className="ml-4">
-                    <i class="text-xl h-6 w-6 my-auto text-blueGray-300 fa-regular fa-eye"></i>
-                  </button>
+                  <ShowText texto="Confirme su contraseña" />
                 </div>
 
                 <div

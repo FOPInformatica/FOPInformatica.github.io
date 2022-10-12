@@ -1,9 +1,10 @@
-/*const Progressbar = ({ done }) => {
-  const [style, setStyle] = React.useState({});
+import { useState } from "react";
+const Progressbar = ({ done }) => {
+  const [style, setStyle] = useState({});
   setTimeout(() => {
     const newStyle = {
       opacity: 1,
-      width: `{$done}`,
+      width: `${done}%`,
     };
     setStyle(newStyle);
   }, 1000);
@@ -11,13 +12,7 @@
   return (
     <>
       <div className="progress">
-        <div
-          className="progress-done"
-          style={{
-            opacity: 1,
-            width: `{$done}`,
-          }}
-        >
+        <div className="progress-done" style={style}>
           {done}%
         </div>
       </div>
@@ -25,4 +20,4 @@
   );
 };
 
-export default Progressbar;*/
+export default Progressbar;
