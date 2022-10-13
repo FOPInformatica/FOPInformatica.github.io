@@ -343,6 +343,7 @@ const Sponsors = () => {
                 Friend<span className="text-blue-500"></span> <br />
               </h2>
             </div>
+
             <div className="flex flex-wrap space-even">
               <Friend />
             </div>
