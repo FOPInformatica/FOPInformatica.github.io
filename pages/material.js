@@ -3,7 +3,7 @@ import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon, PlusCircleIcon } from "@heroicons/react/outline";
-const Pricing = () => {
+const Material = () => {
   return (
     <>
       <Layout>
@@ -717,4 +717,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Material;

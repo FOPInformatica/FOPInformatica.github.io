@@ -807,6 +807,9 @@ video {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
 }
+.ma {
+  margin: auto;
+}
 
 .mx-auto {
   margin-left: auto !important;
@@ -1194,6 +1197,9 @@ video {
 .flex-wrap {
   flex-wrap: wrap !important;
 }
+.space-even {
+  justify-content: space-evenly;
+}
 .place-content-center {
   place-content: center !important;
 }
@@ -1513,6 +1519,9 @@ video {
 }
 .pt-20 {
   padding-top: 5rem !important;
+}
+.pt-32 {
+  padding-top: 8rem !important;
 }
 .pb-32 {
   padding-bottom: 8rem !important;

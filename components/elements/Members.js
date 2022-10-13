@@ -15,20 +15,20 @@ export default function Members() {
   return (
     <>
       {member.map((members) => (
-        <div className="w-1/2 lg:w-1/4 px-5 mb-12">
-          <div
-            className="hover-up-5 pt-8 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn animated border border-gray-100 hover:border-gray-200"
-            data-wow-delay=".1s"
-          >
-            <img
-              className="mb-6 h-36 w-36 mx-auto rounded-full object-cover object-top"
-              src={`/assets/imgs/members/${members.picture}`}
-              alt={members.name}
-            />
-            <strong className="mt-6 mb-2 text-md">{members.name}</strong>
-            <p className="text-gray-500 text-xs mt-3">{members.title}</p>
-            <p className="text-gray-500 text-xs mt-3"></p>
-          </div>
+        <div
+          className="w-full md:w-1/2 lg:w-1/4 px-3 mb-12 hover-up-5 wow animate__animated animate__fadeIn animated"
+          data-wow-delay=".4s"
+        >
+          <img
+            className="h-64 w-64 mx-auto rounded object-cover object-top"
+            src={`/assets/imgs/members/${members.picture}`}
+            alt={members.name}
+          />
+          <p className="mt-6">
+            <strong className="text-md">{members.name}</strong>
+          </p>
+          <p className="text-gray-500 text-xs mb-4">{members.title}</p>
+          <div className="flex py-1 justify-center space-x-2"></div>
         </div>
       ))}
     </>
