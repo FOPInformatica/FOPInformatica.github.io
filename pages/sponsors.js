@@ -33,7 +33,7 @@ const Sponsors = () => {
                 data-wow-delay=".2s"
               >
                 <span>Nuestros</span>
-                <span className="text-red-500">Auspiciadores</span>
+                <span className="text-red-500"> Auspiciadores</span>
               </h2>
             </div>
           </div>

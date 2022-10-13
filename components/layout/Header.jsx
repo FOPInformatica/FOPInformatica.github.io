@@ -33,11 +33,11 @@ const Header = ({ handleHidden }) => {
               </a>
             </Link>
             <ul className="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
-              {nav.map((nav) => (
+              {nav.map((navi) => (
                 <li className="pt-4 pb-4">
-                  <Link href={nav.link}>
+                  <Link href={navi.link}>
                     <a className="text-sm font-semibold text-black hover:text-blueGray-500">
-                      {nav.name}
+                      {navi.name}
                     </a>
                   </Link>
                 </li>
@@ -53,7 +53,7 @@ const Header = ({ handleHidden }) => {
             </div>
             <div className="lg:hidden">
               <button
-                className="navbar-burger flex items-center py-2 px-3 text-blue-500 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300"
+                className="navbar-burger flex items-center py-2 px-3 text-red-500 hover:text-red-700 rounded border border-red-200 hover:border-red-300"
                 onClick={handleHidden}
               >
                 <svg
