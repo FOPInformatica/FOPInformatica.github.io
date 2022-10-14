@@ -115,17 +115,6 @@ const Signup = () => {
                   </p>
                 </div>
               </div>
-              <div>
-                <p className="text-xs text-blueGray-400 text-center">
-                  <a className="underline hover:text-blueGray-500" href="#">
-                    Police privacy
-                  </a>{" "}
-                  and{" "}
-                  <a className="underline hover:text-bluegray-500" href="#">
-                    Terms of Use
-                  </a>
-                </p>
-              </div>
             </div>
           </div>
         </section>

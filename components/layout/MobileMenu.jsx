@@ -79,13 +79,13 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
               </li>
             </ul>
             <div className="mt-4 pt-6 border-t border-blueGray-100">
-              <Link href="/signup">
-                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-red-500 hover:bg-red-700 text-white rounded">
+              <Link href="/login">
+                <a className="block px-4 py-3 mb-2 text-xs text-center text-red-500 hover:text-red-500 font-semibold leading-none border border-red-200 hover:border-red-300 rounded">
                   Iniciar Sesión
                 </a>
               </Link>
-              <Link href="/login">
-                <a className="block px-4 py-3 mb-2 text-xs text-center text-red-500 hover:text-red-500 font-semibold leading-none border border-red-200 hover:border-red-300 rounded">
+              <Link href="/signup">
+                <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-red-500 hover:bg-red-700 text-white rounded">
                   Registrarse
                 </a>
               </Link>

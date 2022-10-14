@@ -12,9 +12,9 @@ export function ShowText(props) {
 
       <button className="ml-4" onClick={() => setShowPwd(!showPwd)}>
         {showPwd ? (
-          <i class="text-xl h-6 w-6 my-auto text-blueGray-300 fa-regular fa-eye"></i>
+          <i class="text-xl h-6 w-6 my-auto text-blueGray-300 fa fa-eye"></i>
         ) : (
-          <i class="text-xl h-6 w-6 my-auto text-blueGray-300 fa-regular fa-eye-slash"></i>
+          <i class="text-xl h-6 w-6 my-auto text-blueGray-300 fa fa-eye-slash"></i>
         )}
       </button>
     </>

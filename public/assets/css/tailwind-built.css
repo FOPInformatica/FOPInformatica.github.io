@@ -498,6 +498,7 @@ video {
     var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
     var(--tw-sepia) var(--tw-drop-shadow);
 }
+
 .logo {
   height: 30px;
 }
@@ -1105,6 +1106,9 @@ video {
 }
 .w-1\/2 {
   width: 50% !important;
+}
+.w-1\/3 {
+  width: 33.3% !important;
 }
 .w-full {
   width: 100% !important;

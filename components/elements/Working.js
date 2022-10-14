@@ -11,7 +11,7 @@ export function Working() {
               <img
                 className="sm:max-w-sm lg:max-w-full mx-auto"
                 src="/assets/imgs/illustrations/working.svg"
-                alt="Monst"
+                alt="in-working"
               />
             </div>
             <div className="text-center w-full md:w-1/2 px-3 order-1 md:order-1 ma">
