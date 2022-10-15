@@ -19,7 +19,7 @@ const Footer = () => {
                   <img
                     className="h-10"
                     src="/assets/imgs/logos/logo.svg"
-                    alt="Monst"
+                    alt="FOPI"
                   />
                 </a>
               </Link>
@@ -54,11 +54,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row items-center lg:justify-between">
             <p className="text-sm text-blueGray-400">
               2022 FOPI &copy;. Todos los derechos reservados. <br />
-              <a
-                className="text-blue-400"
-                href="https://fopi.org.pe/"
-                target="_blank"
-              >
+              <a className="text-blue-400" href="#" target="_blank">
                 Peruvian Federation for Olympiads in Informatics ©.
               </a>
             </p>

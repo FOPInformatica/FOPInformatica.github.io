@@ -33,7 +33,7 @@ const Sponsors = () => {
                 data-wow-delay=".2s"
               >
                 <span>Nuestros</span>
-                <span className="text-red-500">Auspiciadores</span>
+                <span className="text-red-500"> Auspiciadores</span>
               </h2>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Sponsors = () => {
                       <img
                         className="visionary rounded object-cover"
                         src="/assets/imgs/sponsors/valmer.png"
-                        alt="Monst"
+                        alt="Valmer Systems"
                       />
                     </a>
                   </div>
@@ -102,7 +102,7 @@ const Sponsors = () => {
                       <img
                         className="h-full w-full rounded object-cover"
                         src="/assets/imgs/sponsors/finsmart.png"
-                        alt="Monst"
+                        alt="Finsmart"
                       />
                     </a>
                   </div>
@@ -123,7 +123,7 @@ const Sponsors = () => {
                       <img
                         className="h-full w-full rounded object-cover"
                         src="/assets/imgs/sponsors/ucsp.svg"
-                        alt="Monst"
+                        alt="UCSP"
                       />
                     </a>
                   </div>
@@ -147,7 +147,7 @@ const Sponsors = () => {
                       <img
                         className="maintainer rounded object-cover"
                         src="/assets/imgs/sponsors/andreq.jpeg"
-                        alt="Monst"
+                        alt="Andre Quispesaravia"
                       />
                     </a>
                   </div>
@@ -183,7 +183,7 @@ const Sponsors = () => {
                       <img
                         className="h-48 rounded object-cover"
                         src="/assets/imgs/sponsors/cinthia.png"
-                        alt="Monst"
+                        alt="Cinthia Elguedas"
                       />
                     </a>
                   </div>
@@ -205,7 +205,7 @@ const Sponsors = () => {
                       <img
                         className="h-48 rounded object-cover"
                         src="/assets/imgs/sponsors/fromsolvers.png"
-                        alt="Monst"
+                        alt="From Solvers"
                       />
                     </a>
                   </div>
@@ -241,7 +241,7 @@ const Sponsors = () => {
                       <img
                         className="sup rounded object-cover"
                         src="/assets/imgs/sponsors/cesarerquinigo.jpeg"
-                        alt="Monst"
+                        alt="Cesar Erquinigo"
                       />
                     </a>
                   </div>
@@ -263,7 +263,7 @@ const Sponsors = () => {
                       <img
                         className="sup rounded object-cover"
                         src="/assets/imgs/sponsors/phillipchujoy.jpeg"
-                        alt="Monst"
+                        alt="Phillip Chu Joy"
                       />
                     </a>
                   </div>
@@ -282,7 +282,7 @@ const Sponsors = () => {
                       <img
                         className="sup rounded object-cover"
                         src="/assets/imgs/sponsors/emptor.png"
-                        alt="Monst"
+                        alt="Emptor"
                       />
                     </a>
                   </div>
@@ -302,7 +302,7 @@ const Sponsors = () => {
                       <img
                         className="sup rounded object-cover"
                         src="/assets/imgs/sponsors/johnmetcalf.jpeg"
-                        alt="Monst"
+                        alt="Jhon Metcalf"
                       />
                     </a>
                   </div>
@@ -321,7 +321,7 @@ const Sponsors = () => {
                       <img
                         className="sup rounded object-cover"
                         src="/assets/imgs/sponsors/jaguar_soft.png"
-                        alt="Jaguar"
+                        alt="Jaguar Soft"
                       />
                     </a>
                   </div>
@@ -333,14 +333,14 @@ const Sponsors = () => {
             </div>
             <div className="max-w-lg mx-auto mb-12 text-center">
               <span
-                className="inline-block py-1 px-3 text-xs font-semibold bg-red-500 text-blue-600 rounded-xl wow animate__animated animate__fadeIn animated"
+                className="inline-block py-1 px-3 text-xs font-semibold bg-red-500 rounded-xl wow animate__animated animate__fadeIn animated"
                 data-wow-delay=".1s"
               ></span>
               <h2
                 className="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading wow animate__animated animate__fadeIn animated"
                 data-wow-delay=".1s"
               >
-                Friend<span className="text-blue-500"></span> <br />
+                Friend <br />
               </h2>
             </div>
 

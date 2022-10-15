@@ -17,8 +17,8 @@ const Login = () => {
             >
               <img
                 className="lg:max-w-lg mx-auto"
-                src="/assets/imgs/illustrations/space.svg"
-                alt="Monst"
+                src="/assets/imgs/illustrations/team_work.svg"
+                alt="login"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ const Login = () => {
                     </svg>
                   </div>
                   <div className="flex mb-6 px-4 bg-blueGray-50 rounded border border-gray-200">
-                    <ShowText />
+                    <ShowText texto="Ingrese su contraseña" />
                   </div>
 
                   {/*<div
