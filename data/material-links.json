@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Páginas ",
+    "color": "Web",
+    "img1": "globe-red",
+    "img2": "globe",
+    "contenido": [
+      {
+        "name": "CP Algorithms",
+        "link": "https://cp-algorithms.com/"
+      },
+      {
+        "name": "PEGWiki",
+        "link": "http://wcipeg.com/wiki/Special:AllPages"
+      }
+    ]
+  },
+  {
+    "name": "Canales de ",
+    "color": "Youtube",
+    "img1": "youtube-red",
+    "img2": "youtube",
+    "contenido": [
+      {
+        "name": "Canal oficial de la FOPI",
+        "link": "https://www.youtube.com/channel/UC5fcUtSe8oPyN7sNRvLI4ow"
+      },
+      {
+        "name": "Algorithms Live!",
+        "link": "https://www.youtube.com/channel/UCBLr7ISa_YDy5qeATupf26w"
+      },
+      {
+        "name": "Errichto",
+        "link": "https://www.youtube.com/channel/UC2D_ekI79trchAxgRq5mwpQ"
+      },
+      {
+        "name": "SecondThread",
+        "link": "https://www.youtube.com/channel/UCXbCohpE9IoVQUD2Ifg1d1g"
+      },
+      {
+        "name": "Agustín Gutiérrez (elsantodel90) (Español)",
+        "link": "https://www.youtube.com/channel/UCqF1Y3wsJc-JhE9EusFyCHA"
+      }
+    ]
+  },
+  {
+    "name": "Repositorios de ",
+    "color": "problemas",
+    "img1": "folder-open-red",
+    "img2": "folder-open",
+    "contenido": [
+      {
+        "name": "Junior Sheet - Mostafa Saad, recomendado para principiantes",
+        "link": "https://codeforces.com/blog/entry/65133"
+      },
+      {
+        "name": "General Sheet - Mostafa Saad, recomendado para avanzados",
+        "link": "https://codeforces.com/blog/entry/79231"
+      },
+      {
+        "name": "AtCoder problems",
+        "link": "https://kenkoooo.com/atcoder#/table/"
+      },
+      {
+        "name": "Uhunt, complemento online al libro Competitive Programming 3",
+        "link": "https://uhunt.onlinejudge.org/"
+      },
+      {
+        "name": "ProgVar.Fun",
+        "link": "https://progvar.fun/"
+      },
+      {
+        "name": "Competitive programming ladders",
+        "link": "https://codeforces.com/blog/entry/81912"
+      },
+      {
+        "name": "Codedrills Recommender",
+        "link": "https://recommender.codedrills.io/"
+      }
+    ]
+  },
+  {
+    "name": "Páginas para ",
+    "color": "competir y practicar",
+    "img1": "laptop-code-red",
+    "img2": "laptop-code",
+    "contenido": [
+      {
+        "name": "Codeforces",
+        "link": "https://codeforces.com/"
+      },
+      {
+        "name": "AtCoder",
+        "link": "https://atcoder.jp/"
+      },
+      {
+        "name": "OmegaUp (Español)",
+        "link": "https://omegaup.com/"
+      },
+      {
+        "name": "TopCoder",
+        "link": "https://arena.topcoder.com/index.html#/u/dashboard"
+      },
+      {
+        "name": "Dmoj",
+        "link": "https://dmoj.ca/"
+      },
+      {
+        "name": "Aizu Online Judge",
+        "link": "https://judge.u-aizu.ac.jp/onlinejudge/index.jsp"
+      },
+      {
+        "name": "Codechef",
+        "link": "https://www.codechef.com/"
+      },
+      {
+        "name": "USACO",
+        "link": "http://usaco.org/"
+      },
+      {
+        "name": "CSAcademy",
+        "link": "https://csacademy.com/"
+      },
+      {
+        "name": "Online Judge",
+        "link": "https://onlinejudge.org/index.php"
+      },
+      {
+        "name": "HackerRank",
+        "link": "https://www.hackerrank.com/"
+      },
+      {
+        "name": "Sphere Online Judge",
+        "link": "https://www.spoj.com/"
+      },
+      {
+        "name": "Virtual Judge",
+        "link": "https://vjudge.net/"
+      },
+      {
+        "name": "Timus Online Judge",
+        "link": "https://acm.timus.ru/"
+      },
+      {
+        "name": "Kattis Problem Archive",
+        "link": "https://open.kattis.com/"
+      },
+      {
+        "name": "Matcomgrader",
+        "link": "https://matcomgrader.com/"
+      }
+    ]
+  },
+  {
+    "name": "Calendario de ",
+    "color": "competencias",
+    "img1": "calendar-days-red",
+    "img2": "calendar-days",
+    "contenido": [
+      {
+        "name": "CLIST ",
+        "link": "https://clist.by/"
+      }
+    ]
+  }
+]

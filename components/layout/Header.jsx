@@ -43,12 +43,12 @@ const Header = ({ handleHidden }) => {
                 </li>
               ))}
             </ul>
-            <div className="hidden lg:block">
+            <div className="hidden lg:block ">
               <Link href="/login">
-                <a className="btn-accent hover-up-2">Iniciar Sesión</a>
+                <a className="none btn-accent hover-up-2">Iniciar Sesión</a>
               </Link>
               <Link href="/signup">
-                <a className="btn-primary hover-up-2">Registrarse</a>
+                <a className="none btn-primary hover-up-2">Registrarse</a>
               </Link>
             </div>
             <div className="lg:hidden">

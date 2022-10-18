@@ -10,11 +10,11 @@ const Custom404 = () => {
           <div className="container text-center">
             <img
               className="mb-4 mx-auto md:max-w-md mb-12 wow animate__animated animate__fadeIn"
-              src="/assets/imgs/illustrations/error2.png"
-              alt="Monst"
+              src="/assets/imgs/illustrations/404.svg"
+              alt="FOPI"
             />
             <span
-              className="text-4xl text-blue-500 font-bold font-heading wow animate__animated animate__fadeIn"
+              className="text-4xl text-red-500 font-bold font-heading wow animate__animated animate__fadeIn"
               data-wow-delay=".2s"
             >
               Error 404
@@ -23,29 +23,19 @@ const Custom404 = () => {
               className="mb-2 text-4xl font-bold font-heading wow animate__animated animate__fadeIn"
               data-wow-delay=".3s"
             >
-              Page not found :(
+              Página no encontrada :(
             </h2>
             <p
               className="mb-6 text-blueGray-400 wow animate__animated animate__fadeIn"
               data-wow-delay=".4s"
-            >
-              The requested page could not be found.
-            </p>
+            ></p>
             <div>
               <Link href="/">
                 <a
-                  className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded wow animate__animated animate__fadeIn"
+                  className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-red-500 hover:bg-red-700 rounded wow animate__animated animate__fadeIn"
                   data-wow-delay=".5s"
                 >
-                  Go back to Homepage
-                </a>
-              </Link>
-              <Link href="/contact">
-                <a
-                  className="block sm:inline-block py-4 px-8 text-xs text-blueGray-500 hover:text-blueGray-800 text-center font-semibold leading-none bg-blueGray-50 hover:bg-blueGray-100 rounded wow animate__animated animate__fadeIn"
-                  data-wow-delay=".6s"
-                >
-                  Contact Us
+                  Ir al inicio
                 </a>
               </Link>
             </div>

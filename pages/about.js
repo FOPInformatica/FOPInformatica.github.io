@@ -5,6 +5,7 @@ import CounterUp from "../components/elements/Counterup";
 import TextEffect from "../components/elements/TextEffect";
 import Members from "../components/elements/Members";
 import Collaborators from "../components/elements/AssociatedMembers";
+import Typewrite from "../components/elements/TypeWriter";
 const About = () => {
   return (
     <>
@@ -18,8 +19,9 @@ const About = () => {
                   <span className="text-red-500">
                     organización
                     <br />
-                    <TextEffect text1="sin fines de lucro" />
+                    {<TextEffect text1="sin fines de lucro." />}
                   </span>
+                  <span></span>
                 </h2>
               </div>
               <div className="w-full lg:w-1/2">
@@ -30,10 +32,6 @@ const About = () => {
                   ayudar a los colegios y otras instituciones educativas a
                   mejorar la alfabetización tecnólogica en el Perú a través de
                   la programación competitiva.
-                </p>
-                <p className="py-2">
-                  Legalmente, nuestra organización opera como dos organizaciones
-                  sin fines de lucro establecidas en Perú y en California.
                 </p>
               </div>
             </div>
@@ -68,45 +66,6 @@ const About = () => {
             </div>
             <div className="flex flex-wrap -mx-5 justify-center">
               <Collaborators />
-            </div>
-          </div>
-        </section>
-        <section className="pb-20">
-          <div className="container">
-            <div className="max-w-6xl mx-auto text-center">
-              <div className="max-w-4x1 mb-8 mx-auto">
-                <span
-                  className="inline-block py-1 px-3 text-xs font-semibold bg-red-500 text-blue-600 rounded-xl wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".1s"
-                ></span>
-                <h2
-                  className="mt-2 text-2xl font-bold font-heading wow animate__animatedanimated animate__fadeIn"
-                  data-wow-delay=".s"
-                >
-                  Sólo necesitas{" "}
-                  <span className="text-red-500"> querer apoyar </span>
-                  para poder ser parte de nosotros.{" "}
-                </h2>
-                <p className="mt-2 text-3x1  font-heading wow animate__animatedanimated animate__fadeIn">
-                  <br />
-                  Únete a nuestro Slack y preséntate para poder contactarnos.
-                </p>
-              </div>
-              <div>
-                <a
-                  class="btn-accent hover-up-2"
-                  href="https://join.slack.com/t/federacion-opi/shared_invite/zt-19thx57zp-jrIMCwUHBfLeY1zlR6xu~g"
-                >
-                  <span>
-                    Únete al
-                    <img
-                      className="logo"
-                      src="https://a.slack-edge.com/4f28/img/slack_logo.svg"
-                      alt="slack"
-                    />
-                  </span>
-                </a>
-              </div>
             </div>
           </div>
         </section>
