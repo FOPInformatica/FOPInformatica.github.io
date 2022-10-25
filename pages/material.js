@@ -51,6 +51,7 @@ const Material = () => {
           <div className="container">
             <div className="py-6 max-w-6xl mx-auto text-center">
               <div className="max-w-4x1 mb-8 mx-auto">
+
                 <span
                   className="inline-block py-1 px-3 text-xs font-semibold bg-red-500 text-blue-600 rounded-xl wow animate__animatedanimated animate__fadeIn"
                   data-wow-delay=".1s"
@@ -129,6 +130,7 @@ const Material = () => {
                 </p>
               </div>
             </div>
+
             <div className="py-6 max-w-6xl mx-auto text-center">
               <div className="max-w-4x1 mb-8 mx-auto">
                 <span
@@ -345,6 +347,7 @@ const Material = () => {
                   </div>
                 </div>
               </div>
+
               <div className="border-b border-gray-200">
                 <div className="w-full py-3 flex justify-between items-center mt-4">
                   <div className="w-full flex flex-wrap p-6 -mx-3 wow animate__ animate__fadeIn     animated animated">

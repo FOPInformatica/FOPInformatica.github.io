@@ -498,12 +498,14 @@ video {
     var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
     var(--tw-sepia) var(--tw-drop-shadow);
 }
+
 .icon {
   height: 30px !important;
 }
 .icon-plus {
   height: 25px !important;
 }
+
 .logo {
   height: 30px;
 }
