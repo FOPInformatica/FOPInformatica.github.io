@@ -44,7 +44,13 @@
     {
       "name": "Luis Vasquez",
       "title": "Comité Científico de la FOPI | UNI",
-      "picture": "luisvasquez.jpeg"
+      "picture": "luisvasquez.jpeg",
+      "social":[
+        {
+          "name":"linkedin",
+          "link":"https://www.linkedin.com/in/luis-alberto-v%C3%A1squez-vargas-807624133/"
+        }
+      ]
     },
     {
       "name": "Fiorella Barrientso",

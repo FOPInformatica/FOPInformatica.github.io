@@ -7,7 +7,7 @@ var email = site["email"];
 const Footer = () => {
   return (
     <>
-      <section className="py-20" style={{ background: "#1B253A" }}>
+      <section className="py-12" style={{ background: "#1B253A" }}>
         <div
           className="container px-4 mx-auto wow animate__animated animate__fadeIn"
           data-wow-delay=".3s"

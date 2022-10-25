@@ -62,7 +62,7 @@ function Home() {
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading"> </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    <CounterUp count={memb} time={1} />
+                    <CounterUp count={memb} time={3} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
                     Miembros principales
@@ -91,7 +91,7 @@ function Home() {
                 <div className="sm:py-2 ml-2 sm:ml-6">
                   <span className="sm:text-2xl font-bold font-heading"> </span>
                   <span className="sm:text-2xl font-bold font-heading count">
-                    <CounterUp count={coll} time={1} />
+                    <CounterUp count={coll} time={3} />
                   </span>
                   <p className="text-xs sm:text-base text-blueGray-400">
                     Miembros asociados
@@ -120,7 +120,7 @@ function Home() {
                   </div>
                   <div className="sm:py-2 ml-2 sm:ml-6">
                     <span className="sm:text-2xl font-bold font-heading count">
-                      <CounterUp count={stats.number} time={1} /> {stats.plus}
+                      <CounterUp count={stats.number} time={3} /> {stats.plus}
                     </span>
                     <p className="text-xs sm:text-base text-blueGray-400">
                       {stats.name}
@@ -130,15 +130,52 @@ function Home() {
               ))}
             </div>
           </div>
-          <div class="partners">
+          <div class="partners ">
             <div class="partners-logo">
               <Partners />
             </div>
-            <div>
+            <div className="container">
+              <div className="max-w-6xl mx-auto text-center">
+                <div className="max-w-4x1 mb-8 mx-auto">
+                  <span
+                    className="inline-block py-1 px-3 text-xs font-semibold bg-red-500 text-blue-600 rounded-xl wow animate__animatedanimated animate__fadeIn"
+                    data-wow-delay=".1s"
+                  ></span>
+                  <h2
+                    className="mt-2 text-2xl font-bold font-heading wow animate__animatedanimated animate__fadeIn"
+                    data-wow-delay=".s"
+                  >
+                    Sólo necesitas{" "}
+                    <span className="text-red-500"> querer apoyar </span>
+                    para poder ser parte de nosotros.{" "}
+                  </h2>
+                  <p className="mt-2 text-3x1  font-heading wow animate__animatedanimated animate__fadeIn">
+                    <br />
+                    Únete a nuestro Slack y preséntate para poder contactarnos.
+                  </p>
+                </div>
+                <div>
+                  <a
+                    class="btn-accent hover-up-2"
+                    href="https://join.slack.com/t/federacion-opi/shared_invite/zt-19thx57zp-jrIMCwUHBfLeY1zlR6xu~g"
+                  >
+                    <span>
+                      Únete al
+                      <img
+                        className="logo"
+                        src="https://a.slack-edge.com/4f28/img/slack_logo.svg"
+                        alt="slack"
+                      />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/*<div>
               <a class="btn-primary hover-up-2" href={email}>
                 Sé nuestro partner
               </a>
-            </div>
+            </div>*/}
           </div>
         </section>
       </Layout>

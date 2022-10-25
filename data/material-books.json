@@ -1,0 +1,71 @@
+[
+    {
+        "id": "1",
+        "name": "Algoritmos",
+        "description": "Libros que enseñan conceptos de algoritmos y sus aplicaciones.",
+        "img": "book",
+        "books": [
+            {
+                "name": "Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to algorithms. MIT press."
+            },
+            {
+                "name": "Kleinberg, J., & Tardos, E. (2006). Algorithm design. Pearson Education India."
+            },
+            {
+                "name": "Skiena, S. S. (2020). The algorithm design manual. Springer International Publishing."
+            },
+            {
+                "name": "Jungnickel, D., & Jungnickel, D. (2005). Graphs, networks and algorithms. Berlin: Springer."
+            },
+            {
+                "name": "Sedgewick, R., & Wayne, K. (2011). Algorithms (4th edn)."
+            },
+            {
+                "name": "Van Kreveld, M., Schwarzkopf, O., de Berg, M., & Overmars, M. (2000). Computational geometry algorithms and applications. Springer."
+            },
+            {
+                "name": "Cormen, T. H. (2013). Algorithms unlocked. Mit Press."
+            },
+            {
+                "name": "Halim, S., Halim, F., Skiena, S. S., & Revilla, M. A. (2013). Competitive programming 3. Lulu Independent Publish. (Ya disponible la 4ta edición. Tiene traducción al español)."
+            },
+            {
+                "name": "Laaksonen, A. (2017). Competitive Programmer's Handbook. Preprint."
+            },
+            {
+                "name": "Diks, K., Idziaszek, T., Łącki, J., Radoszewski, J., & Hallas, R. G. (Eds.). (2012). Looking for a Challenge?: The Ultimate Problem Set from the University of Warsaw Programming Competitions. Faculty of Mathematics, Informatics and Mechanics University of Warsaw. (Este libro es más una selección de problemas de alto nivel que un libro de algoritmos en sí)."
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Conceptos:",
+        "description": "Libros que enseñan conceptos que son prerrequisitos para poder entender con mayor facilidad los algoritmos.",
+        "img": "book",
+        "books": [
+            {
+                "name": "Graham, R. L., Knuth, D. E., Patashnik, O., & Liu, S. (1989). Concrete mathematics: a foundation for computer science. Computers in Physics, 3(5), 106-107."
+            },
+            {
+                "name": "Bollobás, B. (2012). Graph theory: an introductory course (Vol. 63). Springer Science & Business Media."
+            },
+            {
+                "name": "Ne, J. (2009). Invitation to discrete mathematics. Oxford University Press."
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Resolución de problemas:",
+        "description": "Libros que ayudan a mejorar la habilidad de resolución de problemas al estudiante.",
+        "img": "book",
+        "books": [
+            {
+                "name": "Polya, G. (2004). How to solve it: A new aspect of mathematical method (Vol. 85). Princeton university press."
+            },
+            {
+                "name": "Tao, T. (2006). Solving mathematical problems: A personal perspective. Oxford University Press on Demand."
+            }
+        ]
+    }
+]

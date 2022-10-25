@@ -19,6 +19,7 @@
     "react-visibility-sensor": "^5.1.1",
     "react-wow": "^1.0.0",
     "swiper": "^7.3.2",
+    "typewriter-effect": "^2.19.0",
     "wow.js": "^1.2.2",
     "wowjs": "^1.1.3"
   }

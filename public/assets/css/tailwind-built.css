@@ -499,6 +499,13 @@ video {
     var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.icon {
+  height: 30px !important;
+}
+.icon-plus {
+  height: 25px !important;
+}
+
 .logo {
   height: 30px;
 }
@@ -557,6 +564,9 @@ video {
   background-color: #ecf2f9;
   padding-bottom: 60px;
   gap: 50px;
+}
+.none {
+  display: none !important;
 }
 .partners-logo {
   display: flex;
@@ -749,6 +759,7 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
 .visible {
   visibility: visible !important;
 }
@@ -1706,7 +1717,7 @@ video {
   background-color: rgb(168, 31, 31) !important;
 }
 .text-red-500 {
-  color: rgb(239 68 68) !important;
+  color: rgb(239, 68, 68) !important;
 }
 .text-red-700 {
   color: rgb(212, 39, 39) !important;
@@ -1741,6 +1752,10 @@ video {
 .text-blue-600 {
   --tw-text-opacity: 1 !important;
   color: rgba(37, 99, 235, var(--tw-text-opacity)) !important;
+}
+.text-gray-100 {
+  --tw-text-opacity: 1 !important;
+  color: rgba(120, 120, 130, var(--tw-text-opacity)) !important;
 }
 .text-gray-500 {
   --tw-text-opacity: 1 !important;
@@ -1848,6 +1863,9 @@ video {
 .placeholder-blueGray-400::placeholder {
   --tw-placeholder-opacity: 1 !important;
   color: rgba(148, 163, 184, var(--tw-placeholder-opacity)) !important;
+}
+.opacity-40 {
+  opacity: 0.4 !important;
 }
 .opacity-25 {
   opacity: 0.25 !important;
