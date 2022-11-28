@@ -4,10 +4,10 @@
         16 de Octubre
         </div>
         <div class="promo-subtext">
-            Llevemos al Perú a la Olimpiada Europea Femenina de Informática en Turquía
+            Pudimos llevar al Perú a la Olimpiada Europea Femenina de Informática en Turquía
         </div>
         <div class="promo-collect">
-            <div>Hasta el momento ya hemos recaudado <strong>${{ site.data.collect.ioi2022.current }}</strong></div>
+            <div>Logramos recaudar <strong>${{ site.data.collect.ioi2022.current }}</strong></div>
             {% assign current_percentage = site.data.collect.ioi2022.current | times: 100 | divided_by: site.data.collect.ioi2022.goal %}
             {% assign need_percentage = site.data.collect.ioi2022.need | times: 100 | divided_by: site.data.collect.ioi2022.goal %}
             {%- include utils/progressbar.html completed=current_percentage color="#0056AC" marker=need_percentage -%}
