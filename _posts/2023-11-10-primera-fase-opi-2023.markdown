@@ -20,4 +20,4 @@ Tendremos 2 categorías: Pre-universitarios y Seniors. Los pre-universitarios po
 
 El formulario de inscripción es: https://forms.gle/zuJm3DbueQYxQeGV7
 
-Mucha suerte y nos vemos el 26 de noviembre!! 🤖
+¡¡ Mucha suerte y nos vemos el 26 de noviembre !! 🤖
