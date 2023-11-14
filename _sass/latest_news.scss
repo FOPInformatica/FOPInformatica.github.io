@@ -10,6 +10,13 @@
     margin-bottom: 40px;
     align-items: center;
 
+    .latest-news-all-link {
+      font-size: 18px;
+      
+      a {
+        padding-bottom: 5px;
+      }
+    }
     .latest-news-title {
       color: $primary-1;
       font-size: 40px;
@@ -30,22 +37,33 @@
     .latest-news-item {
       display: flex;
       flex-direction: column;
-      max-width: 325px;
+      border: 1px solid rgb(254, 254, 254);
+      box-shadow:  1px 2px 5px #dbdbdb;
+      border-radius: 14px;
+      padding: 4rem 1.5rem 1rem 1.5rem;
+      max-width: 300px;
+      transition: all 0.2s ease-in-out;
+      gap: 0.5rem;
 
       .post-link {
         font-size: 20px;
       }
 
       .post-meta {
-        font-size: 15px;
-        margin-top: auto;
+        font-size: 16px;
+        font-weight: 300;
       }
     }
   }
 
+  .latest-news-item:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+
   .post-header {
     height: 280px;
-    justify-content: end;
+    justify-content: center;
 
     img {
       margin: auto;
