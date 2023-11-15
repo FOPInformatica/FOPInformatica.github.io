@@ -19,9 +19,10 @@ $breakpoint-xxl: 1399.98px;
   background-color: $primary-2;
   border: 2px solid $primary-2;
   padding: 20px 50px;
-  border-radius: 42px;
+  border-radius: 32px;
   color: white;
   font-size: 20px;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     background-color: $secondary-1;
@@ -42,11 +43,9 @@ a.btn {
 }
 
 main.page-content {
-  padding: 0;
 
   .wrapper {
-    margin-right: 6rem;
-    margin-left: 6rem;
+    margin: 0 8rem;
     max-width: none;
 
     @media (max-width: $breakpoint-lg) {

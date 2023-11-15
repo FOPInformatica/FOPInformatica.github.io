@@ -1,7 +1,7 @@
 .site-header {
   background-color: $primary-1;
   color: white;
-  border-top: none;
+  border: none;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -39,7 +39,6 @@
   .header-pages-links {
     flex: 1 1 auto;
     display: flex;
-    // padding: 0.5rem 0;
 
     @media (max-width: $breakpoint-md) {
       justify-content: center;
@@ -47,6 +46,9 @@
 
     .header-page-item {
       padding: 5px;
+      font-size: 18px;
+      font-weight: 300;
+      padding: 0px 14px;
     }
     
   }
