@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Llamado a Problemas Olimpiada Peruana de Informática 2023"
+title: "Llamado a Problemas Olimpiada Peruana de Informática 2023 y para la Olimpiada Iberoamericana 2024"
 date: 2023-11-14 13:00:00 -0500
 categories: historia
 author: FOPI
