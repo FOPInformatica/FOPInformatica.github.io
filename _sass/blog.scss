@@ -3,16 +3,16 @@
 }
 
 .full-title {
-  min-height: 250px;
+  min-height: 200px;
   background-color: $secondary-2;
   font-size: 48px;
+  font-weight: 600;
   color: white;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-bottom: 150px;
-  padding: 0 160px;
+  margin-bottom: 40px;
 
   @media (max-width: 991.98px) {
     padding: 0;
@@ -53,6 +53,8 @@
   }
 }
 .blog-page {
+  padding: 0 40px;
+
   .post-excerpt {
     margin-bottom: 15px;
   }
@@ -68,6 +70,9 @@
 
       .blog-post-more {
         align-self: start;
+        font-size: 18px;
+        padding: 14px 30px;
+        border-radius: 28px;
       }
     }
   }
