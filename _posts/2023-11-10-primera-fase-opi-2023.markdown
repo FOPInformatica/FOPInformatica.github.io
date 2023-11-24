@@ -7,7 +7,7 @@ author: FOPI
 image: /assets/images/phase-1-2023.png
 is_post: true
 avatar: /assets/images/fopi-logo.png
-author_company: Google
+author_company: FOPI
 ---
 
 ¡Ya están abiertas las inscripciones para la Primera Fase de la Olimpiada Peruana de Informática 2023!
