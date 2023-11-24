@@ -1,0 +1,110 @@
+.site-banner {
+    display: flex;
+    gap: 2rem;
+    padding-top: 35px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    .site-title {
+        color: red;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .site-subtitle {
+        font-size: 25px;
+        font-weight: 400;
+        margin: 10px 0;
+        color: #515151;
+    }
+
+    .banner-btn {
+        margin: 4px 0;
+        padding: 12px 18px;
+        border: 1px solid $primary-2;
+        color: white;
+        border-radius: 18px;
+        font-size: 16px;
+        font-weight: 300;
+        cursor: pointer;
+        width: fit-content;
+        background-color: $primary-2;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .banner-btn:hover {
+        background-color: $secondary-1;
+        color: $primary-2;
+    }
+
+    .banner-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-phase {
+        display: flex;
+        max-width: 360px;
+        flex-direction: column;
+        margin: auto;
+        padding: 1.5rem;
+        border: 1px solid rgb(242, 242, 242);
+        border-radius: 24px;
+        box-shadow:  4px 5px 5px #dbdbdb;
+        font-weight: 300;
+    }
+
+    .banner-base {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+        padding: 1.5rem;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .banner-picture {
+        display: inline;
+        max-width: 750px;
+        margin: auto;
+
+        img {
+            border-radius: 24px;
+            margin: 4px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+            box-shadow:  4px 5px 5px #dbdbdb;
+        }
+    }
+
+    @media (max-width: 1350px) {
+        padding: 40px 0px;
+
+        .banner-picture {
+            display: inline;
+            width: auto;
+            max-width: 400px;
+        }
+    }
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+
+        .banner-picture {
+            margin: auto;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            max-width: none;
+
+            img {
+                width: 480px;
+                max-width: 450px;
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
 
     @media (max-width: 640px) {
       flex-direction: column;
@@ -18,7 +18,7 @@
       width: 50%;
       font-size: 40px;
       font-weight: 700;
-      margin: 0px 50px;
+      margin: 0px 60px;
       color: $primary-1;
 
       @media (max-width: 640px) {
