@@ -1,13 +1,16 @@
 .site-header {
-  background-color: $primary-1;
-  color: white;
+  // background-color: $primary-1;
+  background-color: white;
+  // color: white;
+  color: black;
   border: none;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 
   a {
-    color: white;
+    // color: white;
+    color: black;
   }
 }
 
@@ -37,8 +40,8 @@
   }
 
   .header-pages-links {
-    flex: 1 1 auto;
     display: flex;
+    justify-content: space-between;
 
     @media (max-width: $breakpoint-md) {
       justify-content: center;
@@ -46,13 +49,12 @@
 
     .header-page-item {
       padding: 5px;
-      font-size: 18px;
-      font-weight: 300;
+      font-size: 17px;
+      font-weight: 400;
       padding: 0px 14px;
     }
-    
   }
-  
+
   .header-contact {
     flex: 0 0 200px;
     display: flex;
