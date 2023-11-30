@@ -15,6 +15,16 @@ $breakpoint-xl: 1199.98px;
 $breakpoint-xxl: 1399.98px;
 
 
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: $secondary-2;
+  background-color: $secondary-2;
+  margin: 0;
+  padding: 0;
+}
+
 .btn {
   background-color: $primary-2;
   border: 2px solid $primary-2;
@@ -46,8 +56,9 @@ main.page-content {
   padding: 0;
 
   .wrapper {
-    padding: 0;
+    padding: 40px 0;
     max-width: none;
+    background-color: white;
 
     @media (max-width: $breakpoint-lg) {
       padding: 0 5rem;
@@ -66,7 +77,6 @@ main.page-content {
   }
 
   .wrapper-home {
-    padding: 30px 90px;
     max-width: none;
 
     @media (max-width: $breakpoint-lg) {

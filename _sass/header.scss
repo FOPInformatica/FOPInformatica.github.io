@@ -1,7 +1,5 @@
 .site-header {
-  // background-color: $primary-1;
   background-color: white;
-  // color: white;
   color: black;
   border: none;
   display: flex;
@@ -9,7 +7,6 @@
   flex-wrap: wrap;
 
   a {
-    // color: white;
     color: black;
   }
 }
@@ -21,9 +18,12 @@
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
-.menu-bar,.hidden{
-  display: none;
-}
+  padding: 10px 0;
+
+  .menu-bar,.hidden{
+    display: none;
+  }
+
   @media (max-width: $breakpoint-md) {
     justify-content: center;
   }
