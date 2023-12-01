@@ -3,16 +3,16 @@
 }
 
 .full-title {
-  min-height: 200px;
+  height: 200px;
   background-color: $secondary-2;
   font-size: 48px;
   font-weight: 600;
   color: white;
   display: flex;
-  text-align: center;
+  padding: 0 90px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 0;
 
   @media (max-width: 991.98px) {
     padding: 0;
@@ -53,7 +53,8 @@
   }
 }
 .blog-page {
-  padding: 0 40px;
+  padding: 0 90px;
+  background-color: white;
 
   .post-excerpt {
     margin-bottom: 15px;
@@ -62,6 +63,7 @@
   .post-list {
     display: flex;
     flex-direction: column;
+    padding: 40px 0;
 
     .post-list-item {
       display: flex;
@@ -76,10 +78,6 @@
       }
     }
   }
-}
-
-.post-list {
-  margin-bottom: 100px;
 }
 
 article.post {

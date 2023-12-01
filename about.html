@@ -5,29 +5,43 @@ permalink: /about
 ---
 <div class="about-page">
     <div class="about-description">
+      <div class="about-description-title">
+        Somos una organización
+        <span>
+          sin fines de lucro
+        </span>
+      </div>
+      <div class="about-description-text">
+        <p>
+          Buscamos organizar la selección, 
+          preparación y recaudación de fondos para los estudiantes que representan al Perú
+          en diversas Olimpiadas Internacionales de programación.
+          Ayudamos a los colegios y otras instituciones educativas a mejorar la alfabetización tecnólogica en el Perú
+          a través de la programación competitiva.
+        </p>
+      </div>
+    </div>
+    <div class="about-slack">
       <p>
-        Somos una organización sin fines de lucro que busca organizar la selección, 
-        preparación y recaudación de fondos para los estudiantes que representan al Perú
-        en diversas Olimpiadas Internacionales de programación, así como ayudar a los colegios
-        y otras instituciones educativas a mejorar la alfabetización tecnólogica en el Perú
-        a través de la programación competitiva.
-      </p>
-      <small>
         Sólo necesitas querer apoyar para poder ser parte de nosotros. Únete a nuestro
         Slack y preséntate para poder contactarnos.
-        <div class="about-slack-link">
-            <a class="btn" href="https://join.slack.com/t/federacion-opi/shared_invite/zt-19thx57zp-jrIMCwUHBfLeY1zlR6xu~g">
-                <span>Únete a <img src="https://a.slack-edge.com/4f28/img/slack_logo.svg" alt="slack" /> </span>
-            </a>
-        </div>
-      </small>
+      </p>
+      <btn class="about-slack-link">
+        <a class="btn" href="https://join.slack.com/t/federacion-opi/shared_invite/zt-19thx57zp-jrIMCwUHBfLeY1zlR6xu~g">
+            <span>Únete a</span>
+            &nbsp;
+            <img src="https://a.slack-edge.com/4f28/img/slack_logo.svg" alt="slack" />
+        </a>
+      </btn>
     </div>
     <div class="about-members-list">
       <div class="about-members-title">
-      Miembros permantentes:
+        Miembros
+        <span class="about-members-subtitle">
+          Permanentes
+        </span>
       </div>
-      <div class="about-member-name">
-      </div>
+      <div class="about-members-wrapper">
         {%- for member in site.data.members -%}
             <div class="about-member">
                 <div class="about-member-picture">
@@ -53,21 +67,31 @@ permalink: /about
                 </div>
             </div>
         {%- endfor -%}
+      </div>
+    </div>
+    <div class="about-related-members">
       <div class="about-members-title">
-      </br>
-      Miembros asociados:
+        Miembros
+        <span class="about-members-subtitle">
+          Asociados
+        </span>
       </div>
       <div>
         <ul>
           <span class="about-collaborator">
             {%- for member in site.data.collaborators -%}
-              <li>{{member.name}}</li>
+              <li style="margin-top: 6px;">
+                {{member.name}}
+              </li>
             {%- endfor -%}
           </span>
         </ul>
       </div>
     </div>
-    <div class="about-description" style="text-align: lleft;">
-    Legalmente, nuestra organización opera como dos organizaciones sin fines de lucro establecidas en Perú y en California.
+    <div class="about-description-last">
+      Legalmente, nuestra organización opera como dos organizaciones sin fines de lucro establecidas en
+      <strong>Perú</strong>
+      y en
+      <strong>California.</strong>
     </div>
 </div>

@@ -1,31 +1,114 @@
 .about-page {
+  background-color: rgb(248, 249, 255);
   .about-description {
-    font-size: 25px;
-    margin: 100px 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    flex-direction: row;
+    padding: 90px 100px;
     text-align: center;
 
-    .about-slack-link {
-      margin: 20px 0;
+    small {
+      display: flex;
+      flex-direction: column;
+    }
 
-      img {
-        height: 30px;
+    .about-description-title {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: right;
+      padding: 0 50px;
+      color: $secondary-3;
+      font-size: 44px;
+      font-weight: 700;
+
+      span {
+        color: $primary-1;
       }
+    }
+
+    .about-description-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      margin-right: 100px;
+      color: $secondary-4;
+      font-size: 17px;
     }
   }
 
-  .about-members-list {
+  .about-slack {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 40px;
+    font-size: 18px;
+
+    .about-slack-link {
+      margin: 22px;
+      padding: 0px;
+
+      img {
+        height: 25px;
+      }
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  .about-description-last {
+    padding: 80px 100px;
+    text-align: center;
+    font-size: 20px;
+    color: $secondary-4;
+    font-weight: 300;
+  }
+
+  .about-related-members {
+    background-color: white;
+    padding: 60px 100px;
+  }
+
+  .about-members-list {
+    padding: 0 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     margin: 50px 0;
+
+    .about-members-wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 30px;
+
+      @media (max-width: 1200px) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      @media (max-width: 850px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+      }
+
+    }
+
   }
 }
 
 .about-member {
   display: flex;
-  flex-direction: row;
-  justify-content: start;
-  gap: 80px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15PX;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
 
   @media (max-width: 991.98px) {
     flex-wrap: wrap;
@@ -34,28 +117,35 @@
   }
 
   .about-member-picture {
-    padding: 0 40px;
+    margin: 0 auto;
 
     @media (max-width: 991.98px) {
       padding: 0;
     }
 
     img {
-      width: 340px;
-      min-width: 300px;
+      width: 160px;
+      border-radius: 50%;
+      min-width: 150px;
     }
   }
 }
 
 .about-members-title {
+  text-align: center;
+  padding: 10px 0;
   color: $primary-2;
-  font-size: 30px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.about-members-subtitle {
+  color: $primary-1;
   font-weight: 700;
 }
 
 .about-collaborator {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .about-member-description {
@@ -63,6 +153,7 @@
   flex-direction: column;
   flex: 50%;
   gap: 15px;
+  justify-content: center;
 
   @media (max-width: 991.98px) {
     align-items: center;
@@ -70,20 +161,21 @@
   
   .about-member-name {
     color: $primary-2;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
   }
 
   .about-member-title {
     color: $secondary-4;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
   }
 
   .about-member-social {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    justify-content: center;
   }
 
   .about-member-text {
