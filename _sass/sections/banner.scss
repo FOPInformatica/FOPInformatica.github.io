@@ -46,7 +46,7 @@
 
     .banner-phase {
         display: flex;
-        max-width: 360px;
+        width: 350px;
         flex-direction: column;
         margin: auto;
         padding: 1.5rem;
@@ -60,16 +60,14 @@
     .banner-base {
         display: flex;
         flex-direction: column;
-        max-width: 360px;
+        width: 360px;
         padding: 1.5rem;
         font-size: 18px;
         font-weight: 300;
     }
 
     .banner-picture {
-        display: inline;
-        max-width: 750px;
-        margin: auto;
+        width: 745px;
 
         img {
             border-radius: 24px;
@@ -83,29 +81,100 @@
         }
     }
 
-    @media (max-width: 1350px) {
-        padding: 40px 0px;
+    @media screen and (max-width: $breakpoint-xxl) {
+        padding: 10px 90px;
+
+        .site-title {
+            font-size: 32px;
+        }
+
+        .banner-phase {
+            min-width: 320px;
+        }
+
+        .banner-base {
+            min-width: 320px;
+            font-size: 16px;
+        }
 
         .banner-picture {
-            display: inline;
-            width: auto;
-            max-width: 400px;
+            min-width: 640px;
+            text-align: center;
+
+            img {
+                width: 300px;
+            }
         }
     }
 
-    @media (max-width: 900px) {
-        flex-direction: column;
+    @media screen and (max-width: $breakpoint-xl) {
+        .banner-phase {
+            width: 260px;
+        }
+
+        .banner-base {
+            width: 240px;
+            font-size: 14px;
+        }
 
         .banner-picture {
-            margin: auto;
-            text-align: center;
             align-items: center;
-            justify-content: center;
-            max-width: none;
+            width: fit-content;
 
             img {
-                width: 480px;
-                max-width: 450px;
+                width: 300px;
+            }
+        }
+        
+    }
+
+    @media (max-width: $breakpoint-lg) {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 1rem;
+
+        .site-title {
+            font-size: 32px;
+        }
+
+        .site-subtitle {
+            font-size: 20px;
+        }
+
+        .banner-phase {
+            width: 450px;
+        }
+
+        .banner-base {
+            width: 450px;
+            font-size: 16px;
+        }
+
+        .banner-picture {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));   
+
+            img {
+                width: 290px;
+            }
+        }
+    }
+
+    @media (max-width: $breakpoint-md) {
+        .banner-phase {
+            width: 450px;
+            font-size: 16px;
+        }
+
+        .banner-base {
+            width: 450px;
+            font-size: 16px;
+        }
+
+        .banner-picture {
+            img {
+                width: 300px;
             }
         }
     }
