@@ -56,7 +56,7 @@ main.page-content {
   padding: 0;
 
   .wrapper {
-    padding: 0;
+    padding: 20px 0;
     max-width: none;
     background-color: white;
 
@@ -80,17 +80,14 @@ main.page-content {
     max-width: none;
 
     @media (max-width: $breakpoint-lg) {
-      padding: 0 5rem;
       margin: 0;
     }
 
     @media (max-width: $breakpoint-md) {
-      padding: 0 2.5rem;
       margin: 0;
     }
 
     @media (max-width: $breakpoint-sm) {
-      padding: 0 2rem;
       margin: 0;
     }
   }
