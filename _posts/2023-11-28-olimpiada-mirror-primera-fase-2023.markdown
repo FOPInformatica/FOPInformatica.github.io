@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Competencia Mirror de la Olimpiada Peruana de Informática Primera Fase"
-date: 2023-11-26 13:00:00 -0500
+date: 2023-11-29 13:00:00 -0500
 categories: historia
 author: FOPI
 image: /assets/images/olimpiada-mirror.png
@@ -16,4 +16,4 @@ author_company: FOPI
 
 ¡Dale rienda suelta a tu curiosidad y participa en este emocionante Mirror Contest! 🌐🏆 ¡Que la resolución de problemas comience! 🔥
 
-#OPInformática #MirrorContest #DesafíoDeProgramación #CompetenciaInformática
+#FOPInformática #MirrorContest #DesafíoDeProgramación #CompetenciaInformática

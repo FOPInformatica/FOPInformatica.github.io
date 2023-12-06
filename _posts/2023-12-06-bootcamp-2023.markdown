@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Campamento de Programación Olímpica Internacional para Principiantes"
+date: 2023-12-05 13:00:00 -0500
+categories: historia
+author: FOPI
+image: /assets/images/Bootcamp-2023.png
+is_post: true
+avatar: /assets/images/fopi-logo.png
+author_company: FOPI
+---
+
+🚀 ¡Atención futuros programadores! 🌐✨ Anunciamos con emoción el Campamento Online Iberoamericano para Principiantes en Programación Competitiva. ¿Te entusiasma aprender o mejorar tus habilidades de programación?
+
+💻 ¡Es tu oportunidad de sumergirte en el mundo de la programación competitiva! No importa si eres principiante o ya tienes experiencia, ¡todos son bienvenidos! 🌟 Este campamento será una experiencia única para expandir tus conocimientos y conectar con apasionados de la programación de toda Iberoamérica.
+
+📆 ¡La fecha límite para inscribirse es el 9 de diciembre! No pierdas la oportunidad de formar parte de esta increíble comunidad. 🚀 ¡Prepárate para desafiar tu mente y llevar tus habilidades al siguiente nivel! 🌐💡
+
+Recordatorio❗️ No se olviden de ingresar al enlace de Discord que se encuentra en las Bases. 
+
+Conoce las bases del campamento en el siguiente [enlace](https://drive.google.com/file/d/1if3m0DPda6trD5AiqqxIxc7C398yw7LE/view?usp=sharing).
+
+Formulario de inscripción [enlace](https://forms.gle/EXx7Q6Mn3nVLYkPUA).
+
+#CampamentoProgramación #ProgramaciónCompetitiva #AprendizajeOnline #InscripcionesAbiertas

@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Solucionario Primera Fase Olimpiadas Peruanas de Informática 2023"
+date: 2023-12-05 13:00:00 -0500
+categories: historia
+author: FOPI
+image: /assets/images/solucionario-fase-1-2023.png
+is_post: true
+avatar: /assets/images/fopi-logo.png
+author_company: FOPI
+---
+
+🔍 ¡Buenas noticias, competidores! 🌐✨ El solucionario del Concurso de la Primera Fase de las Olimpiadas Peruanas de Informática 2023 ya está disponible. ¿Estás listo para descubrir las respuestas y mejorar tus habilidades?
+
+📚 Encuentra el solucionario completo en el siguiente [enlace](https://github.com/FOPInformatica/soluciones/tree/master/OPI/2024/Fase%201)
+
+¡Sumérgete en las soluciones y desentraña los secretos detrás de cada desafío!
+
+🚀 ¡Esperamos que encuentres este recurso útil para tu aprendizaje y desarrollo en el emocionante mundo de la programación! 💻🌟
+
+#FOPInformática #Solucionario #AprendizajeProgramación #DesafíosResueltos
