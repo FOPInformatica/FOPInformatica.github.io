@@ -44,21 +44,39 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     background-color: white;
-    padding-bottom: 40px;
-    font-size: 18px;
+    padding: 0 100px 50px 100px;
+    font-size: 16px;
+
+    .about-btn-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+      font-size: 20px;
+      font-weight: 500;
+      gap: 20px;
+
+      // img {
+      //   width: 150px;
+      // }
+    }
+
+    a {
+      border: 2px solid white;
+      transition: all 0.4s ease-in-out;
+    }
 
     .about-slack-link {
-      margin: 22px;
-      padding: 0px;
-
-      img {
-        height: 25px;
-      }
+      // width: 120px;
+      padding: 12px 18px;
+      border-radius: 22px;
     }
 
     a:hover {
       text-decoration: none;
+      border: 2px solid $secondary-6;
     }
   }
 

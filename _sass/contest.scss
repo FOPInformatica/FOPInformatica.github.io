@@ -1,0 +1,12 @@
+.site-contest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px 90px;
+
+    .contest-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
