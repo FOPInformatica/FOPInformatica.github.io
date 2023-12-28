@@ -1,0 +1,39 @@
+.site-newsletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 40px 90px;
+
+    .news-title {
+        font-size: 40px;
+        font-weight: 500;
+        color: $primary-2
+    }
+
+    .news-subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 10px 0;
+        color: #515151;
+    }
+
+    .news-text {
+        font-size: 17px;
+        font-weight: 300;
+        margin: 10px 0;
+        color: #515151;
+    }
+
+    .news-link {
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .news-picture {
+        img {
+            width: 250px;
+        }
+    }
+}
