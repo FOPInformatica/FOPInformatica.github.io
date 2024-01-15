@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Campamento Nacional de Informática 2024"
+date: 2024-01-14 13:00:00 -0500
+categories: historia
+author: FOPI
+image: /assets/images/Bootcamp-2024.png
+is_post: true
+avatar: /assets/images/fopi-logo.png
+author_company: FOPI
+---
+
+🚀 ¡Campamento Nacional de Informática 2024! 🖥️📚
+
+Estamos emocionados de anunciar el Campamento Nacional de Informática 2024, 
+patrocinado por FOPI, UTEC y CoderBloom. 🎉💻 Prepárate para sumergirte en el fascinante universo de la programación.
+
+## ¿Qué Aprenderás?
+🔍 Explora los fundamentos de algoritmos y estructuras de datos, guiado por expertos en la industria. ¡Desde lo básico hasta desafíos avanzados, este campamento es tu boleto para el aprendizaje intensivo!
+
+Detalles del Campamento:
+
+📅 Fechas: Del 12 al 23 de Febrero
+
+🕒 Horario: 9am - 7pm
+
+📍 Modalidad: Virtual y Presencial
+
+## ¿Cómo Participar?
+1. ¡Inscríbete ahora en este [link](https://docs.google.com/forms/d/1v5npLMm7WM23rAo_GZdftPzWMf1NraLVEuUC9cNLgJ8)!
+2. Elige tu modalidad preferida: ¡Virtual o Presencial!
+3. ¡Prepárate para una experiencia inolvidable en el mundo de la informática!
+
+# ¡Importante!
+- Modalidad Presencial: ¡Únete a nosotros en la UTEC para una experiencia enriquecedora!
+
+
+¡Haz de tu Febrero un Mes de Conocimiento y Desafíos! 💡🚀
+
+¡Nos vemos en el Campamento Nacional de Informática! 🌐✨
+
+#FOPI #CampamentoInformática #Programación #Aprendizaje
+
