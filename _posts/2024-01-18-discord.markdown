@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Comunidad Discord de la FOPI"
+date: 2024-01-18 13:00:00 -0500
+categories: historia
+author: FOPI
+image: /assets/images/ComunidadDiscord.png
+is_post: true
+avatar: /assets/images/fopi-logo.png
+author_company: FOPI
+---
+
+🚀 ¡Únete a la Comunidad en Discord! 🌐💬
+Estamos emocionados de anunciar nuestra Comunidad en Discord. 🎉💻 Aquí es donde la magia de la programación cobra vida, y queremos que seas parte de ella.
+
+¿Qué Puedes Esperar en Nuestra Comunidad?
+🗣️ Conversaciones con Nosotros: Conéctate con otros entusiastas de la programación, comparte ideas, resuelve problemas y participa en discusiones interesantes.
+
+📢 Anuncios en Tiempo Real: Sé el primero en enterarte de nuestros eventos, competiciones y actualizaciones importantes directamente desde el equipo de la FOPI.
+
+🌐 Conoce a la Comunidad: Descubre gente increíble con una pasión compartida por la programación. Haz amigos, comparte proyectos y aprende juntos.
+
+¿Cómo Puedes Unirte a Nuestra Comunidad?
+1. Ingresa al [enlace](https://discord.gg/hBXKPPpTd5)
+2. Regístrate en Discord (si aún no lo has hecho).
+3. ¡Únete a la Comunidad y participa en las conversaciones!
+
+Enlace de Invitación: [enlace](https://discord.gg/hBXKPPpTd5)
+
+¡La Comunidad en Discord es más que solo un lugar para discutir programación, es un espacio donde las ideas cobran vida y la colaboración florece! 💡🌱
+
+¡Nos Vemos en Discord! 🚀✨
+
+#FOPI #ComunidadFOPI #Programación #Discord #ConectaConFOPI
