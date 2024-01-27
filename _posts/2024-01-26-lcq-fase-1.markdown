@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Last Chance Qualifier Fase 1"
+date: 2024-01-26 13:00:00 -0500
+categories: historia
+author: FOPI
+image: /assets/images/LCQ-Phase-1.png
+is_post: true
+avatar: /assets/images/fopi-logo.png
+author_company: FOPI
+---
+
+🚨 ¡Última Oportunidad en el "Last Chance Qualifier" de la Fase 1! 🚨
+
+Este domingo 28 de enero, se realizará la competencia LCQ (Last Chance Qualifier) de la Primera Fase. 🚀💻 Tu oportunidad de demostrar tus habilidades en programación y clasificar directamente a la Fase 2.
+
+## Detalles:
+📅 Fecha: Domingo, 28 de Enero
+⏰ Hora: 1:00pm - 6:00pm
+
+## ¡Importante!
+📧 Correo Enviado: Todos los detalles del "Last Chance Qualifier" fueron enviados a tu correo. ¡Revisa tu bandeja de entrada y prepárate para la acción!
+🚨 No te olvides de responder el correo con lo que se solicita
+Solo los participantes de la Primera Fase que no clasificaron para la Segunda pueden participar
+
+## ¿Estás listo para el Desafío?
+¡Prepárate para una jornada emocionante de programación y aprendizaje! No pierdas la última oportunidad de unirte a la acción.
+
+¡Marca la fecha y no dejes pasar tu "Last Chance"! 📆✨
+
+#FOPI #LCQ #Programación #Desafío #ÚltimaOportunidad
