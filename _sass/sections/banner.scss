@@ -1,6 +1,6 @@
 .site-banner {
     padding: 30px 90px;
-    background-color: white;
+    background-color: $secondary-1;
     display: flex;
     gap: 2rem;
     margin: auto;
@@ -14,10 +14,10 @@
     }
 
     .site-subtitle {
-        font-size: 25px;
-        font-weight: 400;
-        margin: 10px 0;
-        color: #515151;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 8px 0;
+        color: #013e8f;
     }
 
     .banner-btn {

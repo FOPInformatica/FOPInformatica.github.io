@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Olimpiada Peruana de Informática Fase 2"
+date: 2024-01-26 13:00:00 -0500
+categories: historia
+author: FOPI
+image: /assets/images/Phase2.png
+is_post: true
+avatar: /assets/images/fopi-logo.png
+author_company: FOPI
+---
+
+🌟 ¡Prepárate para la Segunda Fase de la Olimpiada Peruana de Informática! 🚀💻
+
+¡Querida comunidad FOPI!
+
+La emoción continúa: ¡La Segunda Fase de la Olimpiada Peruana de Informática está a la vuelta de la esquina! 🏆✨
+
+#### 22 Competidores 🚀
+
+#### 4 Problemas 💻
+
+#### 10 Cupos para la Olimpiada Iberoamericana de Informática (OII) 🏆
+
+## Detalles Rápidos:
+📅 Fecha: 18 de Febrero
+
+⏰ Hora: 1pm - 6pm
+
+📍 Modalidad: ¡Virtual desde cualquier lugar!
+
+## ¡Importante!
+1. Conoce a los participantes de la Segunda Fase en este [enlace](https://docs.google.com/spreadsheets/d/1vmJwNgQqlHopZu1_-L5asRV0IUHjAgPqgLNaLekj_gE/edit?usp=sharing)
+2. Los participantes de la Fase son los ganadores y seleccionados de la Fase 1 y LCQ
+
+¿Estás listo para el desafío? ¡Prepárate para descubrir quiénes serán nuestros destacados de esta fase!
+
+Les pedimos estar atentos a sus correos electrónicos para conocer los detalles de esta Segunda Fase 🚀🏆 ¡Marca la fecha y únete a la emoción de la Segunda Fase de la Olimpiada Peruana de Informática! 🌐🏅
+
+#FOPI #OlimpiadaInformática #SegundaFase #Programación #Desafío

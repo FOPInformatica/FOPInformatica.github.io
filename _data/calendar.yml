@@ -1,7 +1,7 @@
 - name: LCQ 2024
   title: Last Chance Qualifier Fase 1 2024
   description: |
-    Concurso para participantes no seleccionados de la Primera Fase que quieran tener otra oportunidad para continuar en la Segunda Fase
+    El Last Chance Qualifier (LCQ) de la Fase 1 es un concurso para participantes no seleccionados de la Primera Fase que quieran tener otra oportunidad para continuar en la Segunda Fase
   date: 28 de Enero
   image: /assets/images/fopi-event.png
 - name: OPI Fase 2
@@ -13,14 +13,14 @@
 - name: EGOI
   title: The European Girls’ Olympiad in Informatics (EGOI)
   description: |
-    The European Girls’ Olympiad in Informatics (EGOI) is an international competition for young women interested in Computer Science. It is similar in style to the International Olympiad in Informatics and is held annually by a different country each year.
-  date: 21-27 July
+    The European Girls’ Olympiad in Informatics (EGOI) es una competencia internacional para mujeres jóvenes interesadas en la informática. Tiene un estilo similar a la Olimpiada Internacional de Informática (OII) y la organiza anualmente un país diferente cada año.
+  date: 21 - 27 Julio
   image: /assets/images/egoi.png
 - name: IOI
   title: International Olympiads in Informatics (IOI)
   description: |
-    The International Olympiad in Informatics (IOI) is an annual competitive programming competition and one of the International Science Olympiads for secondary school students. The contest consists of two days of computer programming/coding and problem-solving of algorithmic nature. To deal with problems involving very large amounts of data.
-  date: 1-8 September
+    The International Olympiad in Informatics (IOI) es una competencia de programación competitiva anual y una de las Olimpiadas Internacionales de Ciencias para estudiantes de secundaria más grandes del mundo. El concurso consta de dos días de programación/codificación informática y resolución de problemas de naturaleza algorítmica para abordar problemas que involucran cantidades muy grandes de datos.
+  date: 1 - 8 Septiembre
   image: /assets/images/ioi-logo.png
 - name: OII
   title: Olimpiada Iberoamericana de Informática (OII)
