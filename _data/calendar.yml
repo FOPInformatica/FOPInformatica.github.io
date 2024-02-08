@@ -1,0 +1,30 @@
+- name: LCQ 2024
+  title: Last Chance Qualifier Fase 1 2024
+  description: |
+    El Last Chance Qualifier (LCQ) de la Fase 1 es un concurso para participantes no seleccionados de la Primera Fase que quieran tener otra oportunidad para continuar en la Segunda Fase
+  date: 28 de Enero
+  image: /assets/images/fopi-event.png
+- name: OPI Fase 2
+  title: Olimpiada Peruana de Informática Fase 2
+  description: |
+    Segunda Fase de nuestra Olimpiada Peruana de Informática
+  date: 18 de Febrero
+  image: /assets/images/fopi-event.png
+- name: EGOI
+  title: The European Girls’ Olympiad in Informatics (EGOI)
+  description: |
+    The European Girls’ Olympiad in Informatics (EGOI) es una competencia internacional para mujeres jóvenes interesadas en la informática. Tiene un estilo similar a la Olimpiada Internacional de Informática (OII) y la organiza anualmente un país diferente cada año.
+  date: 21 - 27 Julio
+  image: /assets/images/egoi.png
+- name: IOI
+  title: International Olympiads in Informatics (IOI)
+  description: |
+    The International Olympiad in Informatics (IOI) es una competencia de programación competitiva anual y una de las Olimpiadas Internacionales de Ciencias para estudiantes de secundaria más grandes del mundo. El concurso consta de dos días de programación/codificación informática y resolución de problemas de naturaleza algorítmica para abordar problemas que involucran cantidades muy grandes de datos.
+  date: 1 - 8 Septiembre
+  image: /assets/images/ioi-logo.png
+- name: OII
+  title: Olimpiada Iberoamericana de Informática (OII)
+  description: |
+    La Olimpíada Iberoamericana de Informática (OII) es una competencia de programación anual para jóvenes alumnos matriculados en un colegio secundario de países de Iberoamérica. Los estudiantes compiten de forma individual, con hasta quince estudiantes compitiendo de cada país participante. La competencia tiene solo una ronda y se realiza online. Por lo general, a los estudiantes se les dan cuatro problemas de naturaleza algorítmica y, tienen que resolver en cinco horas.
+  date: Junio - Julio
+  image: /assets/images/oii-logo.png
