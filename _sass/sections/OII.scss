@@ -1,6 +1,5 @@
 .oii-wrapper {
     display: grid;
-    // padding: 40px 90px;
     background-color: $secondary-1;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 
@@ -38,7 +37,6 @@
 .oii-calendar {
     background-color: $secondary-1;
     display: flex;
-    // flex-direction: column;
     gap: 2rem;
     justify-content: center;
     padding: 2rem 4rem;
