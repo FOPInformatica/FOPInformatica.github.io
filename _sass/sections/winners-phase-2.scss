@@ -1,0 +1,33 @@
+.winners-wrapper {
+    display: grid;
+    padding: 40px 90px;
+    background-color: white;
+    grid-template-columns: repeat(2, minmax(0, 1fr));   
+
+    .winners-text {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: right;
+
+        img {
+            margin: auto;
+            width: 350px;
+        }
+    }
+
+    .winners-table {
+        display: flex;
+        font-size: 14px;
+        flex-direction: column;
+        margin: auto;
+        padding: 0.5rem;
+        border-radius: 10px;
+        background-color: white;
+
+        .position {
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+}

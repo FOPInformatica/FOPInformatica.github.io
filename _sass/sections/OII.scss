@@ -1,0 +1,49 @@
+.oii-wrapper {
+    display: grid;
+    background-color: $secondary-1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    .oii-content {
+        display: flex;
+        background-color: white;
+
+        .oii-image {
+            padding: 2rem;
+            margin: auto;
+
+            img {
+                margin: auto;
+                width: 350px;
+            }
+        }
+    }
+
+    .oii-description {
+        background-color: $secondary-1;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: auto;
+        padding: 4rem 3rem;
+
+        .oii-title {
+            color: $primary-2;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+}
+
+.oii-calendar {
+    background-color: $secondary-1;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 4rem;
+    margin: auto;
+
+    img {
+        margin: auto;
+        width: 180px;
+    }
+}
