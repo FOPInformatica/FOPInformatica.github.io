@@ -1,0 +1,20 @@
+.ioi-egoi-wrapper {
+    background-color: white;
+    padding: 40px 90px;
+
+    .tag {
+        border: 2px solid $primary-1;
+        color: $primary-1;
+        font-weight: 600;
+        padding: 2px 6px;
+        border-radius: 8px;
+        width: fit-content;
+    }
+
+    .title {
+        font-size: 36px;
+        font-weight: 350;
+        margin-top: 10px;
+        color: black;
+    }
+}
