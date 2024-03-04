@@ -1,24 +1,34 @@
-.oii-wrapper {
+.egoi-wrapper {
     display: grid;
     background-color: $secondary-1;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 
-    .oii-content {
+    .egoi-content {
         display: flex;
         background-color: white;
 
-        .oii-image {
+        .egoi-image {
+            display: flex;
+            gap: 1.5rem;
             padding: 2rem;
             margin: auto;
 
+            .egoi-text-image {
+                margin: 10px 0;
+                font-size: 23px;
+                font-weight: 500;
+                width: 250px;
+                justify-content: center;
+            }
+
             img {
                 margin: auto;
-                width: 350px;
+                width: 230px;
             }
         }
     }
 
-    .oii-description {
+    .egoi-description {
         background-color: $secondary-1;
         display: flex;
         flex-direction: column;
@@ -26,24 +36,10 @@
         margin: auto;
         padding: 4rem 3rem;
 
-        .oii-title {
+        .egoi-title {
             color: black;
             font-size: 24px;
             font-weight: 600;
         }
-    }
-}
-
-.oii-calendar {
-    background-color: $secondary-1;
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    padding: 2rem 4rem;
-    margin: auto;
-
-    img {
-        margin: auto;
-        width: 180px;
     }
 }
