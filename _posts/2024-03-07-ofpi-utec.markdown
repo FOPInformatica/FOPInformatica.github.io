@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Olimpiada Femenina Peruana de Informática"
+date: 2024-03-07 13:00:00 -0500
+categories: historia
+author: FOPI
+image: /assets/images/OFPI.png
+is_post: true
+avatar: /assets/images/fopi-logo.png
+author_company: FOPI
+---
+
+🌟 ¡Anunciamos un Proyecto Emocionante en Colaboración con FOPI, CoderBloom y UTEC!
+
+Nos llena de alegría compartir un proyecto único en colaboración con la Federación Olímpica Peruana de Informática (FOPI), CoderBloom y la Universidad de Ingeniería y Tecnología (UTEC).
+
+El objetivo principal de esta olimpiada es despertar el interés de las jóvenes peruanas en el campo de la programación y llevar sus habilidades al siguiente nivel. Queremos motivarlas y respaldarlas para que participen en competencias nacionales e internacionales, explorando su potencial en un entorno competitivo.
+
+Una de las actividades más emocionantes que tenemos planeadas es un riguroso proceso de selección para elegir a las dos chicas que tendrán el honor de representar a Perú en la Olimpiada Femenil Europea de Informática (EGOI) en Países Bajos 2024. ¡Será una experiencia inolvidable!
+
+Estamos comprometidos a proporcionar un ambiente de apoyo y aprendizaje que inspire a nuestras jóvenes programadoras a alcanzar nuevas alturas en el mundo de la informática.
+
+### Regístrate en el siguiente [enlace](https://forms.gle/1erX9mGPPjnfNSJg8)
+
+¡Manténganse atentos para más detalles de esta emocionante aventura!
+
+#FOPI #CoderBloom #UTEC #OlimpiadaFemenil #EGOI2024 #ProgramaciónFemenina
