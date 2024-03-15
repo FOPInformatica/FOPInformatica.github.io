@@ -46,7 +46,6 @@
 
     .banner-phase {
         display: flex;
-        width: 350px;
         flex-direction: column;
         margin: auto;
         padding: 1.5rem;
@@ -60,14 +59,15 @@
     .banner-base {
         display: flex;
         flex-direction: column;
-        width: 360px;
         padding: 1.5rem;
         font-size: 18px;
         font-weight: 300;
     }
 
     .banner-picture {
-        width: 745px;
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
 
         img {
             border-radius: 24px;
@@ -82,23 +82,16 @@
     }
 
     @media screen and (max-width: $breakpoint-xxl) {
-        padding: 10px 90px;
 
         .site-title {
             font-size: 32px;
         }
 
-        .banner-phase {
-            min-width: 320px;
-        }
-
         .banner-base {
-            min-width: 320px;
             font-size: 16px;
         }
 
         .banner-picture {
-            min-width: 640px;
             text-align: center;
 
             img {
@@ -108,12 +101,7 @@
     }
 
     @media screen and (max-width: $breakpoint-xl) {
-        .banner-phase {
-            width: 260px;
-        }
-
         .banner-base {
-            width: 240px;
             font-size: 14px;
         }
 
@@ -142,18 +130,13 @@
             font-size: 20px;
         }
 
-        .banner-phase {
-            width: 450px;
-        }
-
         .banner-base {
-            width: 450px;
             font-size: 16px;
         }
 
         .banner-picture {
             display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));   
+            grid-template-columns: repeat(2, minmax(0, 1fr));
 
             img {
                 width: 290px;
@@ -162,17 +145,13 @@
     }
 
     @media (max-width: $breakpoint-md) {
-        .banner-phase {
-            width: 450px;
-            font-size: 16px;
-        }
-
         .banner-base {
-            width: 450px;
             font-size: 16px;
         }
 
         .banner-picture {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+
             img {
                 width: 300px;
             }
